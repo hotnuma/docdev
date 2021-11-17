@@ -1,0 +1,9 @@
+
+#### notebook tabs
+
+geany: notebook.c: 671
+    notebook_new_tab()
+
+thunar: thunar-window.c: 2263
+    thunar_window_notebook_insert_page()
+
