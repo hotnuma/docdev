@@ -1,3 +1,17 @@
+#### Repositories
+
+geany\
+https://github.com/geany/geany
+
+[Mousepad · GitLab](https://gitlab.xfce.org/apps/mousepad)\
+Apps / mousepad · GitLab\
+
+[Pcmanfm - GitHub](https://github.com/lxde/pcmanfm/blob/master/src/pcmanfm.c)\
+pcmanfm\
+
+[Scite Gtk - GitHub](https://github.com/mirror/scite/tree/master/gtk)\
+scite/gtk\
+
 
 #### notebook tabs
 
