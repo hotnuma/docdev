@@ -1,4 +1,4 @@
 
-Linux notes
+### Dev Notes
 
-see the wiki
+https://github.com/hotnuma/docdev/wiki
