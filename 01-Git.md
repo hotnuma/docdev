@@ -1,8 +1,8 @@
-**[ [Home](00-Home.html) | [Bash](01-Bash.html) | [Build](02-Build.html) | [Cpp](03-Cpp.html) | [Git](04-Git.html) | [Gtk](05-Gtk.html) | [Linux](06-Linux.html) | [Src](07-Src.html) ]**
-
----
+**[ [Home](00-Home.html) | [Build](01-Build.html) | Git | [Bash](02-Bash.html) | [Cpp](03-Cpp.html) | [Gtk](05-Gtk.html) ]**
 
 ## Git
+
+---
 
 * Basics
 

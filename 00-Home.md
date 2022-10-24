@@ -1,29 +1,66 @@
-**[ [Home](00-Home.html) | [Bash](01-Bash.html) | [Build](02-Build.html) | [Cpp](03-Cpp.html) | [Git](04-Git.html) | [Gtk](05-Gtk.html) | [Linux](06-Linux.html) | [Src](07-Src.html) ]**
+**[ Home | [Build](01-Build.html) | [Git](01-Git.html) | [Bash](02-Bash.html) | [Cpp](03-Cpp.html) | [Gtk](05-Gtk.html) ]**
 
-_Linux Dev Notes (WIP)_
+## Linux Dev Notes
+
+---
+
+
+
+#### XFCE
+
+* home
+    
+    https://forum.xfce.org/search.php?action=show_recent  
+    https://mail.xfce.org/pipermail/xfce/  
+    https://mail.xfce.org/pipermail/xfce4-dev/  
+
+* xfce git
+
+    https://gitlab.xfce.org/xfce  
+    
+* libxfce4util
+    
+    https://docs.xfce.org/xfce/libxfce4util/start  
+    https://gitlab.xfce.org/xfce/libxfce4util  
+    
+* libxfce4ui
+    
+    https://docs.xfce.org/xfce/libxfce4ui/start  
+    https://gitlab.xfce.org/xfce/libxfce4ui  
+
+* exo
+    
+    https://docs.xfce.org/xfce/exo/start  
+    https://gitlab.xfce.org/xfce/exo  
+
+
+
+#### /proc
+
+* Calculate memory usage
+    
+    https://stackoverflow.com/questions/41224738/  
+    [https://github.com/lxde/lxpanel/](https://github.com/lxde/lxpanel/blob/master/plugins/monitors/monitors.c#L296)  
+
+* References
+    
+    https://gitlab.com/procps-ng/procps  
+    https://github.com/htop-dev/htop/  
+
+
 
 #### Misc
 
-* Markdown docs
-    
-    [https://docs.github.com/en/github/writing-on-github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) \
-    [https://github.com/adam-p/markdown-here/](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet) \
-    https://commonmark.org/
-
-* Markdown parsers
-    
-    https://github.com/commonmark/cmark \
-    https://github.com/Orc/discount \
-    https://github.com/hoedown/hoedown \
-    https://github.com/faelys/libsoldout
-
 * Regex tutorials
     
-    https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html
+    [https://www3.ntu.edu.sg/home/ehchua/...](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html)  
 
 * Convert .csv file to .ods
     
-    https://askubuntu.com/questions/1105378/
+    https://askubuntu.com/questions/1105378/  
+    
     ```
-    soffice --convert-to ods koko.csv --headless
+    soffice --convert-to ods example.csv --headless
     ```
+
+
