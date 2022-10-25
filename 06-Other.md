@@ -4,6 +4,9 @@
 
 ---
 
+* GNOME 42 — The Nonsense Continues
+
+    https://medium.com/@fulalas/gnome-42-the-nonsense-continues-7d96c3287f7  
 
 
 * Markdown docs

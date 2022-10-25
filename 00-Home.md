@@ -11,8 +11,8 @@
 * home
     
     https://forum.xfce.org/search.php?action=show_recent  
-    https://mail.xfce.org/pipermail/xfce/  
     https://mail.xfce.org/pipermail/xfce4-dev/  
+    https://mail.xfce.org/pipermail/xfce/  
 
 * xfce git
 
@@ -33,6 +33,27 @@
     https://docs.xfce.org/xfce/exo/start  
     https://gitlab.xfce.org/xfce/exo  
 
+
+
+<!--
+
+* Gtk
+    
+    https://www.reddit.com/r/GTK/comments/xdfgjr/api_changes_in_gtk4_removal_of_gtkmenu/  
+    https://news.ycombinator.com/item?id=28939752  
+    https://fosspost.org/are-gtk-developers-destroying-linux-desktop-with-their-plans/  
+    https://blogs.gnome.org/antoniof/2022/06/15/the-tree-view-is-undead-long-live-the-column-view%e2%80%bd/  
+    https://news.ycombinator.com/item?id=29926411  
+    https://news.ycombinator.com/item?id=10758192  
+    
+#### LXDE
+
+* Repos
+    
+    https://github.com/orgs/lxqt/repositories  
+    https://github.com/orgs/lxde/repositories  
+    
+-->
 
 
 #### /proc
