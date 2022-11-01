@@ -1,10 +1,8 @@
-**[ [Home](00-Home.html) | Build | [Git](01-Git.html) | [Bash](02-Bash.html) | [Cpp](03-Cpp.html) | [Gtk](05-Gtk.html) ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | Build | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
 
 ## Build
 
 ---
-
-
 
 #### Reference
 
