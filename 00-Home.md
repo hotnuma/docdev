@@ -4,6 +4,24 @@
 
 ---
 
+#### Links
+
+* home
+    
+    https://developer.xfce.org/  
+    
+    https://gitlab.xfce.org/groups/xfce/-/activity  
+    https://discourse.gnome.org/latest  
+
+    https://gitlab.xfce.org/xfce  
+    https://forum.xfce.org/search.php?action=show_recent  
+    https://www.reddit.com/r/xfce/  
+    
+    https://mail.xfce.org/pipermail/xfce4-dev/  
+    https://mail.xfce.org/pipermail/xfce/  
+
+
+
 #### /proc fs
 
 * References

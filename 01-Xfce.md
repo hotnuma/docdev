@@ -1,26 +1,8 @@
-**[ [Home](00-Home.html) | Xfce | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
+**[ [Home](00-Home.html) | Xfce | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
 
 ## Xfce
 
 ---
-
-#### Links
-
-* home
-    
-    https://developer.xfce.org/  
-    
-    https://gitlab.xfce.org/groups/xfce/-/activity  
-    https://discourse.gnome.org/latest  
-
-    https://gitlab.xfce.org/xfce  
-    https://forum.xfce.org/search.php?action=show_recent  
-    https://www.reddit.com/r/xfce/  
-    
-    https://mail.xfce.org/pipermail/xfce4-dev/  
-    https://mail.xfce.org/pipermail/xfce/  
-
-
 
 #### Core Libraries
 
@@ -44,9 +26,40 @@
 
 
 
+#### Directories
+
+* Wallpapers
+
+    ```
+    ~/.local/share/xfce4/backdrops/
+    /usr/share/backgrounds/
+    /usr/share/xfce4/backdrops/
+    /usr/share/xfce4/backdrops/xfce/
+    ```
+
+
+
+#### Config files
+
+* Prefered applications
+
+    ```
+    /etc/xdg/xfce4/helpers.rc
+    ```
+    
+* Profile
+
+    ```
+    /etc/environment
+    /etc/profile
+    ~/.profile
+    ```
+
+
+
 #### Startup
 
-* lightdm
+* init
 
     ```
     /sbin/ini
@@ -61,14 +74,20 @@
         agetty
         systemd/systemd --user
     ```
-
-* Default session
+    
+* lightdm
+    
+    Show configuration : lightdm --show-config
+    
+    Config file : /etc/lightdm/lightdm.conf
+    
+    Default session : /usr/share/lightdm/lightdm.conf.d/60-xubuntu.conf
+    
+* Desktop sessions
     
     https://askubuntu.com/questions/77191/  
     
-    ```
     See desktop files in /usr/share/xsessions directory
-    ```
     
 * xfce4-session settings
 
@@ -88,12 +107,6 @@
     
     https://docs.xfce.org/xfce/xfconf/xfconf-query  
     [http://manpages.ubuntu.com/manpages/...](http://manpages.ubuntu.com/manpages/bionic/man1/xfconf-query.1.html)  
-
-* Prefered applications
-
-    ```
-    cat /etc/xdg/xfce4/helpers.rc
-    ```
 
 * XF86keysym
     
