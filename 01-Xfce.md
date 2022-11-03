@@ -28,13 +28,25 @@
 
 #### Directories
 
+* Config
+    
+    ```
+    $HOME/.config/xfce4/
+    ```
+
+* Themes
+    
+    ```
+    $HOME/.themes/
+    ```
+
 * Wallpapers
 
     ```
-    ~/.local/share/xfce4/backdrops/
     /usr/share/backgrounds/
     /usr/share/xfce4/backdrops/
     /usr/share/xfce4/backdrops/xfce/
+    $HOME/.local/share/xfce4/backdrops/
     ```
 
 
@@ -52,7 +64,7 @@
     ```
     /etc/environment
     /etc/profile
-    ~/.profile
+    $HOME/.profile
     ```
 
 
