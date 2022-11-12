@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | Thunar | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | Thunar | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
 
 ## Thunar
 

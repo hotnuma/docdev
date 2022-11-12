@@ -1,20 +1,15 @@
-**[ Home | [Xfce](00-Xfce.html) | [Build](01-Build.html) | [Git](01-Git.html) | [Bash](02-Bash.html) | [Cpp](03-Cpp.html) | [Gtk](05-Gtk.html) ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | Other ]**
 
 ## Other
 
 ---
 
-#### Nemo file sorting
+#### Sources
+
+* Repositories
     
-    https://unix.stackexchange.com/questions/510530/  
-    https://github.com/linuxmint/nemo/issues/2247  
-
-
-
-#### LXDE
-
-* Repos
-    
+    https://github.com/geany/geany/commits/master  
+    https://github.com/universal-ctags/ctags  
     https://github.com/orgs/lxde/repositories  
     https://github.com/orgs/lxqt/repositories  
 
@@ -34,5 +29,36 @@
     https://github.com/commonmark/cmark  
     https://github.com/Orc/discount  
     https://github.com/faelys/libsoldout  
+
+
+
+#### Misc
+
+* Regex tutorials
+    
+    [https://www3.ntu.edu.sg/home/ehchua/...](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html)  
+
+* Convert .csv file to .ods
+    
+    https://askubuntu.com/questions/1105378/  
+    
+    ```
+    soffice --convert-to ods example.csv --headless
+    ```
+
+
+
+<!--
+
+* Gtk3
+    
+    https://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html#  
+    https://athenajc.gitbooks.io/python-gtk-3-api/content/  
+
+* Gtk4
+    
+    https://github.com/ToshioCP/Gtk4-tutorial  
+
+-->
 
 

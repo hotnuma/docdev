@@ -1,11 +1,13 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | Cpp ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | Cpp | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
 
 ## Cpp
 
 ---
 
-* Audio playing detect
+#### System
 
+* Audio playing detect
+    
     https://stackoverflow.com/questions/22144203/  
 
 * CPU getusage_c
@@ -20,16 +22,20 @@
     
     https://stackoverflow.com/questions/27306764/  
 
-* procps-ng
+* select
     
-    https://gitlab.com/procps-ng/procps  
+    https://www.blaess.fr/christophe/2013/12/27/comprendre-le-fonctionnement-de-select/  
+
+
+
+#### Redirect IO
 
 * Reading from a pipe
-
+    
     https://stackoverflow.com/questions/1151029/  
 
 * output of process in C
-
+    
     http://www.microhowto.info/howto/capture_the_output_of_a_child_process_in_c.html  
 
 * Redirect pipe dup2
@@ -40,47 +46,53 @@
     
     https://stackoverflow.com/questions/2605130/redirecting-exec-output-to-a-buffer-or-file  
 
-* select
-    
-    https://www.blaess.fr/christophe/2013/12/27/comprendre-le-fonctionnement-de-select/  
-
 
 
 #### Daemon
 
-A sample Daemon program in C  
-[A sample Daemon program in C ](https://gist.github.com/copyninja/1033862)  
+* A sample Daemon program in C
+    
+    https://gist.github.com/copyninja/1033862  
 
-Creating a Daemon Process in C Language with an Example Program  
-[Creating a Daemon Process in C Language with an Example Program ](https://www.thegeekstuff.com/2012/02/c-daemon-process/)  
+* Creating a Daemon Process
+    
+    https://www.thegeekstuff.com/2012/02/c-daemon-process/  
 
-daemon example in c - Recherche Google  
-[daemon example in c - Recherche Google ](https://www.google.com/search?channel=fs&client=ubuntu&q=daemon+example+in+c)  
+* daemon example in c
+    
+    https://www.google.com/search?channel=fs&client=ubuntu&q=daemon+example+in+c  
 
-Linux Daemon Writing HOWTO  
-[Linux Daemon Writing HOWTO ](http://netzmafia.de/skripten/unix/linux-daemon-howto.html)  
+* Linux Daemon Writing HOWTO
+    
+    http://netzmafia.de/skripten/unix/linux-daemon-howto.html  
 
-Lloyd Rochester - Daemon Example in C  
-[Lloyd Rochester - Daemon Example in C ](https://lloydrochester.com/post/c/unix-daemon-example/)  
+* Daemon Example in C
+    
+    https://lloydrochester.com/post/c/unix-daemon-example/  
 
-pasce/daemon-skeleton-linux-c: Basic skeleton of a linux daemon written in C  
-[pasce_daemon-skeleton-linux-c: Basic skeleton of a linux daemon written in C ](https://github.com/pasce/daemon-skeleton-linux-c)  
+* pasce/daemon-skeleton-linux-c
+    
+    https://github.com/pasce/daemon-skeleton-linux-c  
 
-src/pfork.c · master · 𐰀𐰞𐰃:𐰺𐰃𐰔𐰀:𐰚𐰀𐰾𐰚𐰃𐰤 (𐰽𐰆𐰞𐰃𐰤𐰆𐰽) / fork · GitLab  
-[src_pfork_c · master · 𐰀𐰞𐰃:𐰺𐰃𐰔𐰀:𐰚𐰀𐰾𐰚𐰃𐰤 (𐰽𐰆𐰞𐰃𐰤𐰆𐰽) _ fork · GitLab ](https://gitlab.com/sulincix/fork/-/blob/master/src/pfork.c)  
+* src/pfork.c
+    
+    https://gitlab.com/sulincix/fork/-/blob/master/src/pfork.c  
 
 
 
 #### Execute
 
-[Execute program in C](https://stackoverflow.com/questions/5237482/how-do-i-execute-external-program-within-c-code-in-linux-with-arguments)  
-How do I execute external program within C code in linux with arguments? - Stack Overflow  
+* Execute program in C
+    
+    https://stackoverflow.com/questions/5237482/
 
-[popen - LDP](https://tldp.org/LDP/lpg/node12.html)  
-6.2.3 Pipes the Easy Way!  
+* popen
+    
+    https://tldp.org/LDP/lpg/node12.html  
 
-[posix_spawn](https://www.systutorials.com/a-posix_spawn-example-in-c-to-create-child-process-on-linux/)  
-Creating a Child Process using posix_spawn in C in Linux - SysTutorials  
+* posix_spawn
+    
+    https://www.systutorials.com/a-posix_spawn-example-in-c-to-create-child-process-on-linux/  
 
 
 

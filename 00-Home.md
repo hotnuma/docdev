@@ -1,4 +1,4 @@
-**[ Home | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
+**[ Home | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
 
 ## Docs Dev
 
@@ -38,18 +38,29 @@
 
 
 
-#### Misc
+#### DBus
 
-* Regex tutorials
+* Reference
     
-    [https://www3.ntu.edu.sg/home/ehchua/...](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html)  
+    https://www.freedesktop.org/wiki/Software/dbus/  
+    https://sheitsandgiggles.com/2019/07/16/a-trip-into-dbus-send/  
+    https://stackoverflow.com/questions/43118430/  
+    
+    https://unix.stackexchange.com/questions/46301/a-list-of-available-d-bus-services  
+    https://www.freedesktop.org/software/gstreamer-sdk/data/docs/2012.5/gio/gdbus.html  
+    https://manpages.ubuntu.com/manpages/bionic/man1/gdbus.1.html  
 
-* Convert .csv file to .ods
+* DBus from command line
     
-    https://askubuntu.com/questions/1105378/  
+    Monitor UDisk2 : `sudo busctl monitor org.freedesktop.UDisks2`
     
-    ```
-    soffice --convert-to ods example.csv --headless
-    ```
+    http://www.kaizou.org/2014/06/dbus-command-line.html  
+    https://stackoverflow.com/questions/3684999/  
+    [https://developer.ridgerun.com/wiki/...](https://developer.ridgerun.com/wiki/index.php/How_to_send_Dbus_messages_manually)  
+
+* Examples
+    
+    [https://github.com/wware/stuff/.../dbus-example.c](https://github.com/wware/stuff/blob/master/dbus-example/dbus-example.c)  
+    https://gist.github.com/dradtke/4949546
 
 

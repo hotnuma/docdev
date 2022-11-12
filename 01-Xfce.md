@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | Xfce | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
+**[ [Home](00-Home.html) | Xfce | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
 
 ## Xfce
 
@@ -26,7 +26,32 @@
 
 
 
+#### Environment
+    
+* Xdg
+    
+    ```
+    $XDG_CONFIG_DIRS
+    ```
+
+
+
 #### Directories
+
+* Xdg
+    
+    ```
+    /etc/xdg/
+    /etc/xdg/xdg-xubuntu/
+    ```
+
+* Applications
+
+    ```
+    $HOME/.local/share/applications
+    /usr/share/applications
+    /usr/local/share/applications/
+    ```
 
 * Default config
     
@@ -49,15 +74,30 @@
 * Wallpapers
 
     ```
+    $HOME/.local/share/xfce4/backdrops/
     /usr/share/backgrounds/
     /usr/share/xfce4/backdrops/
     /usr/share/xfce4/backdrops/xfce/
-    $HOME/.local/share/xfce4/backdrops/
     ```
 
 
 
 #### Config files
+
+* Xdg menu
+    
+    ```
+    /etc/xdg/xdg-xubuntu/menus/xfce-applications.menu
+    /etc/xdg/menus/xfce-applications.menu
+    ```
+    
+* Keyboard shortcuts
+    
+    ```
+    $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+    ```
 
 * Prefered applications
 
@@ -110,7 +150,7 @@
 * xfce4-session settings
 
     ```
-    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml
+    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     ```
 
@@ -119,6 +159,8 @@
     ```
     feh --bg-scale /usr/share/rpd-wallpaper/clouds.jpg
     ```
+
+
 
 #### Other
 

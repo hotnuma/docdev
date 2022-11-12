@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | Gtk | [Build](04-Build.html) | [Git](05-Git.html) | [Bash](06-Bash.html) | [Cpp](07-Cpp.html) ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | Gtk | [Cpp](07-Cpp.html) | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
 
 ## Gtk
 
@@ -6,10 +6,18 @@
 
 #### Reference
 
-http://www.manpagez.com/html/gtk3/gtk3-3.24.14/index.php  
-https://developer-old.gnome.org/gtk3/stable/  
-https://www.manpagez.com/html/glib/glib-2.56.0/glib-changes.php  
-https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
+* Gtk3
+    
+    http://www.manpagez.com/html/gtk3/gtk3-3.24.14/index.php  
+    https://developer-old.gnome.org/gtk3/stable/  
+
+* GLib
+    
+    https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
+
+* GIO
+    
+    https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
 
 
 
@@ -18,21 +26,17 @@ https://www.manpagez.com/html/gio/gio-2.56.0/index.php
 * Gtk2
     
     https://zetcode.com/gui/gtk2/  
-    https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html  
-    https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-8.html  
-    
-* Gtk3
-    
-    https://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html#  
-    https://athenajc.gitbooks.io/python-gtk-3-api/content/  
-
-* Gtk4
-    
-    https://github.com/ToshioCP/Gtk4-tutorial  
+    [https://www.cc.gatech.edu/.../gtk_tut.html](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
 
 
 
 #### Gtk
+
+* TreeView
+
+    http://scentric.net/tutorial/  
+    https://zetcode.com/gui/gtk2/gtktreeview/  
+    https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models  
 
 * Custom Widgets
 
@@ -50,12 +54,6 @@ https://www.manpagez.com/html/gio/gio-2.56.0/index.php
 
     https://mail.gnome.org/archives/gtk-app-devel-list/2017-May/msg00037.html  
     https://stackoverflow.com/questions/8850043/  
-
-* TreeView
-
-    http://scentric.net/tutorial/  
-    https://zetcode.com/gui/gtk2/gtktreeview/  
-    https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models  
 
 * Redirect stdout to GtkTextView
     

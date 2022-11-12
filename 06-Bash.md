@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Build](04-Build.html) | [Git](05-Git.html) | Bash | [Cpp](07-Cpp.html) ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | Bash | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
 
 ## Bash
 
@@ -8,13 +8,15 @@
 
 * Advance Bash scripting
     
-    https://tldp.org/LDP/abs/html/index.html
+    https://tldp.org/LDP/abs/html/index.html  
+
+
 
 #### Args
 
 * Check number of arguments
     
-    https://stackoverflow.com/questions/18568706/
+    https://stackoverflow.com/questions/18568706/  
     
     ```bash
     if [[ $# != 1 ]]; then
@@ -25,7 +27,7 @@
 
 * Parsing args
     
-    https://stackoverflow.com/questions/192249/
+    https://stackoverflow.com/questions/192249/  
 
     ```bash
     #!/usr/bin/bash
@@ -49,11 +51,14 @@
         echo ok
     fi
     ```
+
+
+
 #### Files
 
 * Test file extension
     
-    https://stackoverflow.com/questions/21425006/
+    https://stackoverflow.com/questions/21425006/  
     
     ```bash
     #!/bin/bash
@@ -67,7 +72,7 @@
 
 * Change file extension
     
-    https://stackoverflow.com/questions/1224766/
+    https://stackoverflow.com/questions/1224766/  
 
     ```bash
     inpath=file.md
@@ -75,7 +80,7 @@
     ```
 * Heredoc
     
-    https://linuxize.com/post/bash-heredoc/
+    https://linuxize.com/post/bash-heredoc/  
     
     ```bash
     dest=~/test.txt
@@ -85,13 +90,16 @@
     blie
     EOF
     ```
+
 * Output to file and stdout
     
-    https://stackoverflow.com/questions/418896/
+    https://stackoverflow.com/questions/418896/  
     
     ```
     program [arguments...] 2>&1 | tee -a outfile
     ```
+
+
 
 #### Directories
 
@@ -109,21 +117,23 @@
 
 * Get the directory of the current script
     
-    https://stackoverflow.com/questions/59895/
+    https://stackoverflow.com/questions/59895/  
     
     ```bash
     BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
     ```
 
+
+
 #### Misc
 
 * Write functions
     
-    https://linuxize.com/post/bash-functions/
+    https://linuxize.com/post/bash-functions/  
 
 * Checking sudo
     
-    https://stackoverflow.com/questions/42875809/
+    https://stackoverflow.com/questions/42875809/  
     
     ```bash
     if [[ "$EUID" = 0 ]]; then
@@ -138,3 +148,5 @@
         fi
     fi
     ```
+
+
