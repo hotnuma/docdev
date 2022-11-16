@@ -154,13 +154,15 @@
     /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     ```
 
-* feh
+* Desktop background
     
+    ```
+    hsetroot -solid '#5e5c64'
+    ```
+
     ```
     feh --bg-scale /usr/share/rpd-wallpaper/clouds.jpg
     ```
-
-
 
 #### Other
 

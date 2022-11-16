@@ -27,9 +27,11 @@
 * References
     
     https://fr.wikipedia.org/wiki/Procfs  
+    [https://mtodorovic.developpez.com/linux/...](https://mtodorovic.developpez.com/linux/programmation-avancee/?page=page_7)  
+    https://github.com/pixelb/ps_mem  
     https://gitlab.com/procps-ng/procps  
-    https://github.com/htop-dev/htop/  
     https://gitlab.gnome.org/GNOME/libgtop  
+    https://github.com/htop-dev/htop/  
     
 * Memory usage
     

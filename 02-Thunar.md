@@ -18,6 +18,11 @@
 * Custom Actions
     
     https://docs.xfce.org/xfce/thunar/4.12/custom-actions  
+    https://forum.xfce.org/viewtopic.php?id=12633  
+    
+    ```
+    xfce4-terminal -e 'bash -c "extract.sh %f; bash"'
+    ```
 
 * thunar-window.c
     

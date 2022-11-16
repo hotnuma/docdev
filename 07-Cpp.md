@@ -6,6 +6,14 @@
 
 #### System
 
+* C fopen vs open
+    
+    https://stackoverflow.com/questions/1658476/  
+    
+* fail safe file open in C
+    
+    see glib's get_contents_posix
+    
 * Audio playing detect
     
     https://stackoverflow.com/questions/22144203/  
@@ -105,10 +113,6 @@
 * Awesome C - uhub
 
     https://github.com/uhub/awesome-c  
-
-* Linux proc
-
-    https://mtodorovic.developpez.com/linux/programmation-avancee/?page=page_7  
 
 * MS _vscprintf
 

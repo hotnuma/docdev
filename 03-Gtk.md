@@ -6,6 +6,14 @@
 
 #### Reference
 
+* Gtk version
+    
+    https://askubuntu.com/questions/78377/  
+    
+    ```
+    dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii
+    ```
+
 * Gtk3
     
     http://www.manpagez.com/html/gtk3/gtk3-3.24.14/index.php  

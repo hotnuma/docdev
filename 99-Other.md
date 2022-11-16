@@ -12,7 +12,7 @@
     https://github.com/universal-ctags/ctags  
     https://github.com/orgs/lxde/repositories  
     https://github.com/orgs/lxqt/repositories  
-
+    https://github.com/IgnorantGuru?tab=repositories  
 
 
 #### Markdown
@@ -49,6 +49,10 @@
 
 
 <!--
+
+https://gitlab.xfce.org/xfce/thunar/-/merge_requests/297#note_58460  
+https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
+https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
 
 * Gtk3
     
