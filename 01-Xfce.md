@@ -175,4 +175,8 @@
     
     https://unix.stackexchange.com/questions/426977/  
 
+* Xfce Classic Fork
+    
+    [https://www.linuxadictos.com/en/xfce-classic](https://www.linuxadictos.com/en/xfce-classic-a-fork-of-xfce-but-without-the-client-side-window-decoration.html)
+
 
