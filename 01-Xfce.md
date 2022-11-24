@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | Xfce | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | [Bash](06-Bash.html) | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
+**[ [Home](00-Home.html) | Xfce | [Bash](02-Bash.html) | [Build](03-Build.html) | [Cpp](04-Cpp.html) | [Gtk](05-Gtk.html) | [Git](06-Git.html) | [Other](99-Other.html) ]**
 
 ## Xfce
 
@@ -164,7 +164,18 @@
     feh --bg-scale /usr/share/rpd-wallpaper/clouds.jpg
     ```
 
+
+
 #### Other
+
+* Thunar Custom Actions
+    
+    https://docs.xfce.org/xfce/thunar/4.12/custom-actions  
+    https://forum.xfce.org/viewtopic.php?id=12633  
+    
+    ```
+    xfce4-terminal -e 'bash -c "extract.sh %f; bash"'
+    ```
 
 * xfconf-query
     

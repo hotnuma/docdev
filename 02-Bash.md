@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Thunar](02-Thunar.html) | [Gtk](03-Gtk.html) | [Cpp](07-Cpp.html) | Bash | [Build](04-Build.html) | [Git](05-Git.html) | [Other](99-Other.html) ]**
+**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | Bash | [Build](03-Build.html) | [Cpp](04-Cpp.html) | [Gtk](05-Gtk.html) | [Git](06-Git.html) | [Other](99-Other.html) ]**
 
 ## Bash
 
