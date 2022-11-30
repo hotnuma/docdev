@@ -150,8 +150,8 @@
 * xfce4-session settings
 
     ```
-    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     ```
 
 * Desktop background

@@ -22,6 +22,14 @@
 
 
 
+#### Code Formatting
+
+* astyle
+    
+    One file : `astyle -n --style=allman thunar-window.c`
+
+    Recursive : `astyle --style=allman -n -r "test/*.h" "test/*.c"`
+    
 #### /proc fs
 
 * References
