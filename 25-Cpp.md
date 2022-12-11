@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Bash](02-Bash.html) | [Build](03-Build.html) | Cpp | [Gtk](05-Gtk.html) | [Git](06-Git.html) | [Other](99-Other.html) ]**
+**[ [Home](00-Home.html) | [Xfce](05-Xfce.html) | [DBus](10-DBus.html) | [Bash](15-Bash.html) | [Build](20-Build.html) | Cpp | [Gtk](30-Gtk.html) | [Git](35-Git.html) | [Other](99-Other.html) ]**
 
 ## Cpp
 
@@ -21,6 +21,10 @@
 
 
 #### System
+
+* GKeyFile
+    
+    https://gist.github.com/zdxerr/709169  
 
 * C open vs fopen
     
@@ -130,4 +134,35 @@
     
     https://github.com/antirez/sds  
 
+
+#### Articles
+
+* Qt Creator: How to do per-project tab spacing? | Qt Forum
+    
+    [https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-pro](https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-project-tab-spacing/4)
+
+* A simple C XML parser - Stack Overflow
+    
+    [https://stackoverflow.com/questions/2851983/a-simple-c-xml-p](https://stackoverflow.com/questions/2851983/a-simple-c-xml-parser)
+
+* C XML library for Embedded Systems - Stack Overflow
+    
+    [https://stackoverflow.com/questions/1131701/c-xml-library-fo](https://stackoverflow.com/questions/1131701/c-xml-library-for-embedded-systems)
+
+* Is there a good tiny XML parser for an embedded C project? - Stack Overflow
+    
+    [https://stackoverflow.com/questions/3739474/is-there-a-good-](https://stackoverflow.com/questions/3739474/is-there-a-good-tiny-xml-parser-for-an-embedded-c-project)
+
+* fgets()
+    
+    [https://www.tutorialspoint.com/c_standard_library/c_function](https://www.tutorialspoint.com/c_standard_library/c_function_fgets.htm)  
+    https://koor.fr/C/cstdio/fgets.wp  
+
+* linux - Memory usage of current process in C - Stack Overflow
+    
+    [https://stackoverflow.com/questions/1558402/memory-usage-of-](https://stackoverflow.com/questions/1558402/memory-usage-of-current-process-in-c)
+
+* c - How do I find the RAM usage of a process using its ID? - Stack Overflow
+    
+    [https://stackoverflow.com/questions/67224020/how-do-i-find-t](https://stackoverflow.com/questions/67224020/how-do-i-find-the-ram-usage-of-a-process-using-its-id)
 

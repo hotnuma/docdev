@@ -1,4 +1,4 @@
-**[ [Home](00-Home.html) | [Xfce](01-Xfce.html) | [Bash](02-Bash.html) | [Build](03-Build.html) | [Cpp](04-Cpp.html) | [Gtk](05-Gtk.html) | Git | [Other](99-Other.html) ]**
+**[ [Home](00-Home.html) | [Xfce](05-Xfce.html) | [DBus](10-DBus.html) | [Bash](15-Bash.html) | [Build](20-Build.html) | [Cpp](25-Cpp.html) | [Gtk](30-Gtk.html) | Git | [Other](99-Other.html) ]**
 
 ## Git
 
@@ -33,7 +33,10 @@
     ```
     git remote -v
     ```
-
+* Reset last changes
+    
+    https://stackoverflow.com/questions/4630312/  
+    
 * Remove subdirs
 
     ```
