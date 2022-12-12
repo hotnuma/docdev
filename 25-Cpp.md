@@ -10,13 +10,34 @@
     
     https://github.com/oz123/awesome-c  
 
-* String start
+
+
+#### Functions
+
+* String `starts_with`
     
     [https://stackoverflow.com/questions/4770985/](https://stackoverflow.com/questions/4770985/how-to-check-if-a-string-starts-with-another-string-in-c)
 
-* MS `_vscprintf`
+* `_vscprintf`
     
     https://stackoverflow.com/questions/4785381/  
+
+* open vs fopen
+    
+    https://stackoverflow.com/questions/1658476/  
+    
+* stat, fstat, lstat
+
+    http://manpages.ubuntu.com/manpages/trusty/fr/man2/stat.2.html  
+
+* fgets()
+    
+    [https://www.tutorialspoint.com/c_standard_library/c_function](https://www.tutorialspoint.com/c_standard_library/c_function_fgets.htm)  
+    https://koor.fr/C/cstdio/fgets.wp  
+
+* CPU getusage_c
+    
+    https://github.com/fho/code_snippets/blob/master/c/getusage.c  
 
 
 
@@ -26,21 +47,9 @@
     
     https://gist.github.com/zdxerr/709169  
 
-* C open vs fopen
-    
-    https://stackoverflow.com/questions/1658476/  
-    
-* stat, fstat, lstat
-
-    http://manpages.ubuntu.com/manpages/trusty/fr/man2/stat.2.html  
-
 * Audio playing detect
     
     https://stackoverflow.com/questions/22144203/  
-
-* CPU getusage_c
-    
-    https://github.com/fho/code_snippets/blob/master/c/getusage.c  
 
 
 
@@ -70,32 +79,14 @@
 
 #### Daemon
 
-* A sample Daemon program in C
+* Examples
     
     https://gist.github.com/copyninja/1033862  
-
-* Creating a Daemon Process
-    
     https://www.thegeekstuff.com/2012/02/c-daemon-process/  
-
-* daemon example in c
-    
     https://www.google.com/search?channel=fs&client=ubuntu&q=daemon+example+in+c  
-
-* Linux Daemon Writing HOWTO
-    
     http://netzmafia.de/skripten/unix/linux-daemon-howto.html  
-
-* Daemon Example in C
-    
     https://lloydrochester.com/post/c/unix-daemon-example/  
-
-* pasce/daemon-skeleton-linux-c
-    
     https://github.com/pasce/daemon-skeleton-linux-c  
-
-* src/pfork.c
-    
     https://gitlab.com/sulincix/fork/-/blob/master/src/pfork.c  
 
 
@@ -120,26 +111,35 @@
 
 
 
+#### Articles
+
+* Qt Creator per-project tab spacing
+    
+    [https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-pro](https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-project-tab-spacing/4)
+
+* Memory usage of current process
+    
+    [https://stackoverflow.com/questions/1558402/memory-usage-of-](https://stackoverflow.com/questions/1558402/memory-usage-of-current-process-in-c)
+
+* RAM usage of a process using its ID
+    
+    [https://stackoverflow.com/questions/67224020/how-do-i-find-t](https://stackoverflow.com/questions/67224020/how-do-i-find-the-ram-usage-of-a-process-using-its-id)
+
+
+
+<!--
+
 #### Libraries
 
 * Awesome C
     
     https://github.com/uhub/awesome-c  
-
-* xml.c
-    
-    https://github.com/ooxi/xml.c  
     
 * Simple Dynamic Strings
     
     https://github.com/antirez/sds  
 
-
-#### Articles
-
-* Qt Creator: How to do per-project tab spacing? | Qt Forum
-    
-    [https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-pro](https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-project-tab-spacing/4)
+#### XML Parser
 
 * A simple C XML parser - Stack Overflow
     
@@ -153,16 +153,10 @@
     
     [https://stackoverflow.com/questions/3739474/is-there-a-good-](https://stackoverflow.com/questions/3739474/is-there-a-good-tiny-xml-parser-for-an-embedded-c-project)
 
-* fgets()
+* xml.c
     
-    [https://www.tutorialspoint.com/c_standard_library/c_function](https://www.tutorialspoint.com/c_standard_library/c_function_fgets.htm)  
-    https://koor.fr/C/cstdio/fgets.wp  
+    https://github.com/ooxi/xml.c  
+    
+-->
 
-* linux - Memory usage of current process in C - Stack Overflow
-    
-    [https://stackoverflow.com/questions/1558402/memory-usage-of-](https://stackoverflow.com/questions/1558402/memory-usage-of-current-process-in-c)
-
-* c - How do I find the RAM usage of a process using its ID? - Stack Overflow
-    
-    [https://stackoverflow.com/questions/67224020/how-do-i-find-t](https://stackoverflow.com/questions/67224020/how-do-i-find-the-ram-usage-of-a-process-using-its-id)
 

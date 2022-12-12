@@ -6,35 +6,24 @@
 
 #### Reference
 
-* Gtk version
+* Docs
+    
+    https://developer-old.gnome.org/gtk3/stable/  
+    http://www.manpagez.com/html/gtk3/gtk3-3.24.14/index.php  
+    https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
+    https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
+
+* Gtk/Glib version
     
     https://askubuntu.com/questions/78377/  
     
-    ```
-    dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii
-    ```
+    `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
 
-* Gtk2
+* Tutorial
     
     https://zetcode.com/gui/gtk2/  
     [https://www.cc.gatech.edu/.../gtk_tut.html](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
-
-* Gtk3
-    
-    http://www.manpagez.com/html/gtk3/gtk3-3.24.14/index.php  
-    https://developer-old.gnome.org/gtk3/stable/  
-
-* Gtk4
-
     https://toshiocp.github.io/Gtk4-tutorial/  
-    
-* GLib
-    
-    https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
-
-* GIO
-    
-    https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
 
 
 
@@ -75,9 +64,13 @@
 
 #### Articles
 
+* Gtk3-classic
+    
+    https://github.com/lah7/gtk3-classic  
+
 * HowDoI/GtkApplication
     
-    https://wiki.gnome.org/HowDoI/GtkApplication
+    https://developer.gnome.org/documentation/tutorials/application.html  
 
 * Preventing multiple instances of a GTK application
     

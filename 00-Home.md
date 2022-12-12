@@ -4,6 +4,10 @@
 
 ---
 
+#### Install libraries
+
+    sudo apt-get install libxml2-dev
+    
 #### Articles
 
 

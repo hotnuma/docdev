@@ -59,24 +59,6 @@
     https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
     https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
 
-* libxfce4util
-    
-    https://developer.xfce.org/libxfce4util/index.html  
-    https://docs.xfce.org/xfce/libxfce4util/start  
-    https://gitlab.xfce.org/xfce/libxfce4util  
-    
-* libxfce4ui
-    
-    https://developer.xfce.org/libxfce4ui/index.html  
-    https://docs.xfce.org/xfce/libxfce4ui/start  
-    https://gitlab.xfce.org/xfce/libxfce4ui  
-
-* exo
-    
-    https://developer.xfce.org/exo/index.html  
-    https://docs.xfce.org/xfce/exo/start  
-    https://gitlab.xfce.org/xfce/exo  
-
 * valgrind
 
     [https://discourse.gnome.org/t/how-to-correct-read-ini-files-](https://discourse.gnome.org/t/how-to-correct-read-ini-files-using-glib/6987)  

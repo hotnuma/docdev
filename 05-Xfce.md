@@ -10,11 +10,24 @@
     
     https://forum.xfce.org/search.php?action=show_recent  
     https://www.reddit.com/r/xfce/  
-    https://gitlab.xfce.org/xfce  
     
+    https://gitlab.xfce.org/xfce  
     https://developer.xfce.org/  
-    https://mail.xfce.org/pipermail/xfce4-dev/  
-    https://mail.xfce.org/pipermail/xfce/  
+
+* libxfce4util
+    
+    https://developer.xfce.org/libxfce4util/index.html  
+    https://docs.xfce.org/xfce/libxfce4util/start  
+    
+* libxfce4ui
+    
+    https://developer.xfce.org/libxfce4ui/index.html  
+    https://docs.xfce.org/xfce/libxfce4ui/start  
+
+* exo
+    
+    https://developer.xfce.org/exo/index.html  
+    https://docs.xfce.org/xfce/exo/start  
 
 
 
@@ -190,5 +203,10 @@
 * Port to Wayland
     
     [https://gitlab.xfce.org/xfce/xfce4-panel/-/merge_requests/10](https://gitlab.xfce.org/xfce/xfce4-panel/-/merge_requests/103#note_60758)  
+
+<!--
+    https://mail.xfce.org/pipermail/xfce4-dev/  
+    https://mail.xfce.org/pipermail/xfce/  
+-->
 
 
