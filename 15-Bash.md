@@ -10,7 +10,16 @@
     
     https://tldp.org/LDP/abs/html/index.html  
 
-
+* Base directory
+    
+    https://stackoverflow.com/questions/59895/  
+    
+    ```
+    BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+    ```
+    ```
+    BASEDIR="$( dirname -- "$( readlink -f -- "$0"; )" )"
+    ```
 
 #### Args
 
@@ -113,14 +122,6 @@
             echo $dir
         fi
     done
-    ```
-
-* Get the directory of the current script
-    
-    https://stackoverflow.com/questions/59895/  
-    
-    ```bash
-    BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
     ```
 
 

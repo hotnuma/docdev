@@ -14,6 +14,10 @@
 
 #### Functions
 
+* Simple Dynamic Strings
+    
+    https://github.com/antirez/sds  
+
 * String `starts_with`
     
     [https://stackoverflow.com/questions/4770985/](https://stackoverflow.com/questions/4770985/how-to-check-if-a-string-starts-with-another-string-in-c)
@@ -135,10 +139,6 @@
     
     https://github.com/uhub/awesome-c  
     
-* Simple Dynamic Strings
-    
-    https://github.com/antirez/sds  
-
 #### XML Parser
 
 * A simple C XML parser - Stack Overflow

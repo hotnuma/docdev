@@ -8,8 +8,8 @@
 
 * Docs
     
+    https://www.manpagez.com/html/gtk3/gtk3-3.24.31/index.php  
     https://developer-old.gnome.org/gtk3/stable/  
-    http://www.manpagez.com/html/gtk3/gtk3-3.24.14/index.php  
     https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
     https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
 
@@ -19,15 +19,39 @@
     
     `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
 
-* Tutorial
+* Valgrind
+    
+    https://valgrind.org/docs/manual/quick-start.html  
+    https://developer.gnome.org/documentation/tools/valgrind.html  
+    [https://stackoverflow.com/questions/16659781/](https://stackoverflow.com/questions/16659781/memory-leaks-in-gtk-hello-world-program)  
+    https://wiki.wxwidgets.org/Valgrind_Suppression_File_Howto  
+    
+    ```
+    /usr/lib/valgrind/debian.supp
+    /usr/lib/valgrind/ncurses.supp
+    /usr/lib/valgrind/python3.supp
+    /usr/libexec/valgrind/default.supp
+    /usr/share/gtk-3.0/valgrind/gtk.supp
+    /usr/share/glib-2.0/valgrind/glib.supp
+    /home/hotnuma/DevSrc/autre/gtk+3.0-3.24.25/gtk.supp
+    /home/hotnuma/DevSrc/glib-2.68.1/glib.supp
+    ```
+
+#### Tutorial
+
+* Gtk
     
     https://zetcode.com/gui/gtk2/  
     [https://www.cc.gatech.edu/.../gtk_tut.html](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
+    https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-3-24/examples  
     https://toshiocp.github.io/Gtk4-tutorial/  
 
-
-
-#### Gtk
+* GtkApplication
+    
+    https://www.manpagez.com/html/gtk3/gtk3-3.24.31/ch01s04.php  
+    https://stackoverflow.com/questions/52492939/  
+    [https://stackoverflow.com/questions/19072161/](https://stackoverflow.com/questions/19072161/preventing-multiple-instances-of-a-gtk-application)  
+    https://developer.gnome.org/documentation/tutorials/application.html  
 
 * TreeView
 
@@ -68,36 +92,11 @@
     
     https://github.com/lah7/gtk3-classic  
 
-* HowDoI/GtkApplication
+* GtkTreeView Memory leak
     
-    https://developer.gnome.org/documentation/tutorials/application.html  
-
-* Preventing multiple instances of a GTK application
-    
-    [https://stackoverflow.com/questions/19072161/preventing-mult](https://stackoverflow.com/questions/19072161/preventing-multiple-instances-of-a-gtk-application)
-
-* c - Memory Leaks in GTK hello_world program - Stack Overflow
-    
-    [https://stackoverflow.com/questions/16659781/memory-leaks-in](https://stackoverflow.com/questions/16659781/memory-leaks-in-gtk-hello-world-program)
-
-* A Valgrind suppression file for GTK+ applications. Just add --suppressions=/path/to/gtk3.supp.
-    
-    https://gist.github.com/pendingchaos/81feddb95c06aeb58e2f
-
-* 1965195 – [GTK3] gtk_tree_view_set_cursor() leaks memory for trees with multiple renderers
-    
-    https://bugzilla.redhat.com/show_bug.cgi?id=1965195
-
-* a11y: Plug a memory leak with treeviews (21f80982) · Commits · GNOME / gtk · GitLab
-    
-    [https://gitlab.gnome.org/GNOME/gtk/-/commit/21f8098261486417](https://gitlab.gnome.org/GNOME/gtk/-/commit/21f8098261486417db371b202bc0494c12017468)
-
-* Pipeline · GNOME / gtk · GitLab
-    
-    https://gitlab.gnome.org/GNOME/gtk/-/pipelines/289296
-
-* a11y: Fix ref counting in tree views (!3660) · Merge requests · GNOME / gtk · GitLab
-    
-    https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/3660
+    https://bugzilla.redhat.com/show_bug.cgi?id=1965195  
+    [https://gitlab.gnome.org/GNOME/gtk/-/commit/21f8098261486417](https://gitlab.gnome.org/GNOME/gtk/-/commit/21f8098261486417db371b202bc0494c12017468)  
+    https://gitlab.gnome.org/GNOME/gtk/-/pipelines/289296  
+    https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/3660  
 
 
