@@ -19,24 +19,6 @@
     
     `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
 
-* Valgrind
-    
-    https://valgrind.org/docs/manual/quick-start.html  
-    https://developer.gnome.org/documentation/tools/valgrind.html  
-    [https://stackoverflow.com/questions/16659781/](https://stackoverflow.com/questions/16659781/memory-leaks-in-gtk-hello-world-program)  
-    https://wiki.wxwidgets.org/Valgrind_Suppression_File_Howto  
-    
-    ```
-    /usr/lib/valgrind/debian.supp
-    /usr/lib/valgrind/ncurses.supp
-    /usr/lib/valgrind/python3.supp
-    /usr/libexec/valgrind/default.supp
-    /usr/share/gtk-3.0/valgrind/gtk.supp
-    /usr/share/glib-2.0/valgrind/glib.supp
-    /home/hotnuma/DevSrc/autre/gtk+3.0-3.24.25/gtk.supp
-    /home/hotnuma/DevSrc/glib-2.68.1/glib.supp
-    ```
-
 #### Tutorial
 
 * Gtk

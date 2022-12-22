@@ -10,6 +10,12 @@
     
     https://github.com/oz123/awesome-c  
 
+* GCC cleanup attribute
+    
+    [https://blog.fishsoup.net/2015/11/05/attributecleanup-mixed-](https://blog.fishsoup.net/2015/11/05/attributecleanup-mixed-declarations-and-code-and-goto/)  
+    https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/  
+    [http://echorand.me/site/notes/articles/c_cleanup/cleanup_att](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
+
 
 
 #### Functions

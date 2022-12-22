@@ -4,7 +4,7 @@
 
 ---
 
-#### Commands
+#### Basics
 
 * clone
 
@@ -33,19 +33,32 @@
     ```
     git remote -v
     ```
-* Reset last changes
-    
-    https://stackoverflow.com/questions/4630312/  
-    
+
 * Remove subdirs
 
     ```
     git rm -r --cached autre
     ```
 
+#### History
+
+* Reset last changes
+    
+    https://stackoverflow.com/questions/4630312/  
+    
 * Commit history
     
     https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History  
+    
+    example : `git log --pretty=oneline --since=2021-03-21`
+
+* Diff from commit
+    
+    https://stackoverflow.com/questions/17563726/  
+    
+    `git diff COMMIT~ COMMIT`
+
+#### Configuration
 
 * Generate access token
     
