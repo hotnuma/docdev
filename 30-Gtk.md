@@ -19,6 +19,14 @@
     
     `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
 
+* Build simple program
+    
+```
+    gcc -o gtksimple gtksimple.c `pkg-config --libs --cflags gtk+-3.0`
+```
+
+
+
 #### Tutorial
 
 * Gtk
@@ -65,6 +73,14 @@
 * GtkFileChooserDialog
     
     https://www.gnu.org/software/guile-gnome/docs/gtk/html/GtkFileChooserDialog.html  
+
+* glib/gapplication-example-cmdline2.c at master · bratsche/glib
+    
+    [https://github.com/bratsche/glib/blob/master/gio/tests/gappl](https://github.com/bratsche/glib/blob/master/gio/tests/gapplication-example-cmdline2.c)
+
+* gudev example
+    
+    https://gist.github.com/fourdollars/6410173
 
 
 

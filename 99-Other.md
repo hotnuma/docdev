@@ -17,22 +17,6 @@
     https://github.com/IgnorantGuru?tab=repositories  
 
 
-#### Markdown
-
-* docs
-    
-    [https://github.com/adam-p/markdown-here/...](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
-    [https://docs.github.com/en/github/writing-on-github/...](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
-    https://commonmark.org/  
-
-* parsers
-    
-    https://github.com/hoedown/hoedown  
-    https://github.com/faelys/libsoldout  
-    https://github.com/commonmark/cmark  
-    https://github.com/Orc/discount  
-
-
 
 #### Articles
 
@@ -50,18 +34,14 @@
     
     `soffice --convert-to ods example.csv --headless`
 
+* Windows 95 theme
+    
+    https://github.com/grassmunk/Chicago95
 
-<!--
+* XDG Dirs
 
-* Other
-
-    https://gitlab.xfce.org/xfce/thunar/-/merge_requests/297#note_58460  
     https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
     https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
-
-* valgrind
-
-    [https://discourse.gnome.org/t/how-to-correct-read-ini-files-](https://discourse.gnome.org/t/how-to-correct-read-ini-files-using-glib/6987)  
 
 * Gtk3
     
@@ -79,7 +59,5 @@
 * Projects/GTK/Menus
     
     https://wiki.gnome.org/Projects/GTK/Menus  
-
--->
 
 

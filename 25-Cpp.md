@@ -16,7 +16,11 @@
     https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/  
     [http://echorand.me/site/notes/articles/c_cleanup/cleanup_att](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
 
+* QtCreator printf
 
+    https://chowdera.com/2020/12/20201208210320326z.html  
+
+    `setbuf(stdout, NULL);`
 
 #### Functions
 

@@ -4,29 +4,37 @@
 
 ---
 
-#### Install libraries
+#### Libraries
 
-    sudo apt-get install libxml2-dev
+    libgudev : libgudev-1.0-dev
+    pcre : libpcre3-dev
+    pcre2 : libpcre2-dev
+    libxml2 : libxml2-dev
+
+
+#### Freedesktop
+
+* Icon names
     
+    https://specifications.freedesktop.org/icon-naming-spec/latest/ar01s04.html  
 
 
-#### Articles
 
-* glib/gapplication-example-cmdline2.c at master · bratsche/glib
+#### Markdown
+
+* docs
     
-    [https://github.com/bratsche/glib/blob/master/gio/tests/gappl](https://github.com/bratsche/glib/blob/master/gio/tests/gapplication-example-cmdline2.c)
+    https://www.markdownguide.org/basic-syntax/  
+    [https://github.com/adam-p/markdown-here/...](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
+    [https://docs.github.com/en/github/writing-on-github/...](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
+    https://commonmark.org/  
 
-* A example by gudev to list if the power_supply is from bluetooth or not.
+* parsers
     
-    https://gist.github.com/fourdollars/6410173
-
-* Leak in thunar-window.c (#961) · Issues · Xfce / thunar · GitLab
-    
-    https://gitlab.xfce.org/xfce/thunar/-/issues/961#note_61256
-
-* grassmunk/Chicago95: A rendition of everyone&#39;s favorite 1995 Microsoft operating system for Linux.
-    
-    https://github.com/grassmunk/Chicago95
+    https://github.com/hoedown/hoedown  
+    https://github.com/faelys/libsoldout  
+    https://github.com/commonmark/cmark  
+    https://github.com/Orc/discount  
 
 
 
@@ -45,8 +53,7 @@
     [https://stackoverflow.com/questions/16659781/](https://stackoverflow.com/questions/16659781/memory-leaks-in-gtk-hello-world-program)  
     https://wiki.wxwidgets.org/Valgrind_Suppression_File_Howto  
     [https://discourse.gnome.org/t/after-freeing-a-garray-valgrin](https://discourse.gnome.org/t/after-freeing-a-garray-valgrind-still-complains-about-non-freed-blocks/3378/1)  
-
-
+    [https://discourse.gnome.org/t/how-to-correct-read-ini-files-](https://discourse.gnome.org/t/how-to-correct-read-ini-files-using-glib/6987)  
     
     ```
     /usr/lib/valgrind/debian.supp
