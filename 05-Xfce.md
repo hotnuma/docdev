@@ -10,17 +10,34 @@
     
     https://forum.xfce.org/search.php?action=show_recent  
     https://www.reddit.com/r/xfce/  
-    
     https://gitlab.xfce.org/xfce  
     https://developer.xfce.org/  
 
-* libxfce4ui
+
+
+#### Session
+
+* XSessions
+
+    https://askubuntu.com/questions/62833/  
+
+    ```
+    /usr/share/xsessions/xubuntu.desktop
+    /usr/share/xsessions/xfce.desktop
+    ```
     
-    https://developer.xfce.org/libxfce4ui/index.html  
-    https://docs.xfce.org/xfce/libxfce4ui/start  
+* lightdm
+    
+    https://wiki.archlinux.org/title/LightDM  
+    
+    ```
+    /etc/lightdm/lightdm.conf
+    /usr/share/lightdm/lightdm.conf.d/
+    ```
+    
+    Show configuration : `lightdm --show-config`
 
-
-
+    
 #### Xdg
     
 * Environment
@@ -33,15 +50,15 @@
     
     ```
     $HOME/.config/xfce4/
-    /etc/xdg/xfce4/
     /etc/xdg/xdg-xubuntu/xfce4/
+    /etc/xdg/xfce4/
     ```
 
 * xfce4-session settings
 
     ```
-    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     ```
 
 * Prefered applications
@@ -73,6 +90,17 @@
 
 #### Share
 
+* Default Applications
+    
+    ```
+    $HOME/.config/mimeapps.list
+    /usr/share/xubuntu/applications/defaults.list
+    /usr/share/xfce4/applications/defaults.list
+    /etc/xfce4/defaults.list
+    /usr/share/applications/defaults.list
+    /etc/gnome/defaults.list
+    ```
+    
 * Desktop sessions
     
     `/usr/share/xsessions/`
@@ -83,6 +111,7 @@
 
     ```
     $HOME/.local/share/applications/
+    /usr/share/xubuntu/applications/
     /usr/share/applications/
     /usr/local/share/applications/
     ```
@@ -154,14 +183,6 @@
         systemd/systemd --user
     ```
     
-* lightdm
-    
-    Show configuration : `lightdm --show-config`
-    
-    Config file : `/etc/lightdm/lightdm.conf`
-    
-    Default session : `/usr/share/lightdm/lightdm.conf.d/60-xubuntu.conf`
-
 * Desktop background
     
     ```
@@ -193,10 +214,5 @@
 * Port to Wayland
     
     [https://gitlab.xfce.org/xfce/xfce4-panel/-/merge_requests/10](https://gitlab.xfce.org/xfce/xfce4-panel/-/merge_requests/103#note_60758)  
-
-<!--
-    https://mail.xfce.org/pipermail/xfce4-dev/  
-    https://mail.xfce.org/pipermail/xfce/  
--->
 
 

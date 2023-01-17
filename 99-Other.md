@@ -20,6 +20,23 @@
 
 #### Articles
 
+* GTK3 and multithreading
+    
+    [https://stackoverflow.com/questions/30607429/gtk3-and-multit](https://stackoverflow.com/questions/30607429/gtk3-and-multithreading-replacing-deprecated-functions)
+
+* XDG MIME Applications - ArchWiki
+    
+    https://wiki.archlinux.org/title/XDG_MIME_Applications
+
+* XDG Dirs
+
+    https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
+    https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
+
+* XOrg TearFree Page-Flipping Merged
+    
+    https://www.phoronix.com/news/Modesetting-TearFree-Merged
+
 * Command fd not found
     
     https://github.com/sharkdp/fd/issues/791
@@ -37,27 +54,5 @@
 * Windows 95 theme
     
     https://github.com/grassmunk/Chicago95
-
-* XDG Dirs
-
-    https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
-    https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
-
-* Gtk3
-    
-    https://python-gtk-3-tutorial.readthedocs.io/en/latest/index.html#  
-    https://athenajc.gitbooks.io/python-gtk-3-api/content/  
-
-* Gtk3 to Gtk4
-    
-    [https://discourse.gnome.org/t/gtk4-migrating-from-gtk3-help-](https://discourse.gnome.org/t/gtk4-migrating-from-gtk3-help-with-menus/7446/13)  
-
-* Using GtkPopoverMenu
-    
-    [https://discourse.gnome.org/t/using-gtkpopovermenu-as-a-gtkm](https://discourse.gnome.org/t/using-gtkpopovermenu-as-a-gtkmenu-replacement/3786/3)  
-
-* Projects/GTK/Menus
-    
-    https://wiki.gnome.org/Projects/GTK/Menus  
 
 

@@ -15,10 +15,9 @@
     https://stackoverflow.com/questions/59895/  
     
     ```
+    BASEDIR="$(dirname -- "$(readlink -f -- "$0";)")"
+    
     BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-    ```
-    ```
-    BASEDIR="$( dirname -- "$( readlink -f -- "$0"; )" )"
     ```
 
 #### Args
@@ -93,7 +92,7 @@
     
     ```bash
     dest=~/test.txt
-    sudo tee $dest > /dev/null << 'EOF'
+    sudo tee $dest > /dev/null << EOF
     bla
     ble
     blie

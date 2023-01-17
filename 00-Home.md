@@ -85,3 +85,31 @@
     [https://github.com/lxde/lxpanel/](https://github.com/lxde/lxpanel/blob/master/plugins/monitors/monitors.c#L296)  
 
 
+
+#### Articles
+
+* Disable Overlay Scrollbars
+    
+    https://forums.linuxmint.com/viewtopic.php?t=298083  
+
+* Desktop Entry Specification
+    
+    [https://specifications.freedesktop.org/desktop-entry-spec/de](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)  
+
+* Where is XDG_CONFIG_DIRS set ?
+    
+    https://askubuntu.com/questions/1179729/  
+
+* The offending /etc/xdg/xfce4/xinitrc script
+    
+    https://gist.github.com/ncraike/6204799  
+
+* The Bash Shell Startup Files
+    
+    [https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/prof](https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/profile.html)  
+
+* /usr/share/applications/hplj1020.desktop
+    
+    [https://www.apt-browse.org/browse/debian/jessie/main/all/pri](https://www.apt-browse.org/browse/debian/jessie/main/all/printer-driver-foo2zjs-common/20140925dfsg0-3/file/usr/share/applications/hplj1020.desktop)  
+
+
