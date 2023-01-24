@@ -8,15 +8,13 @@
 
 * Docs
     
-    https://developer-old.gnome.org/gtk3/stable/  
     https://www.manpagez.com/html/gtk3/gtk3-3.24.31/index.php  
     https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
     https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
+    <!--https://developer-old.gnome.org/gtk3/stable/-->  
 
-* Gtk3 Git
-    
     https://gitlab.gnome.org/GNOME/gtk/-/commits/gtk-3-24/  
-
+    
 * Gtk/Glib version
     
     https://askubuntu.com/questions/78377/  
