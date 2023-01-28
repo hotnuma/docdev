@@ -15,26 +15,22 @@
 
     https://gitlab.gnome.org/GNOME/gtk/-/commits/gtk-3-24/  
     
-* Gtk/Glib version
-    
-    https://askubuntu.com/questions/78377/  
-    
-    `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
-
 * Build simple program
     
     ```
     gcc -o gtksimple gtksimple.c `pkg-config --libs --cflags gtk+-3.0`
     ```
 
+* Gtk/Glib version
+    
+    https://askubuntu.com/questions/78377/  
+    
+    `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
+
 
 
 #### Tutorial
 
-* DnD
-    
-    https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
-    
 * Gtk
     
     https://zetcode.com/gui/gtk2/  
@@ -42,6 +38,10 @@
     https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-3-24/examples  
     https://toshiocp.github.io/Gtk4-tutorial/  
 
+* DnD
+    
+    https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
+    
 * GApplication
     
     [https://github.com/bratsche/glib/blob/master/gio/tests/gappl](https://github.com/bratsche/glib/blob/master/gio/tests/gapplication-example-cmdline2.c)

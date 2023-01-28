@@ -86,30 +86,12 @@
 
 
 
-#### Articles
+#### Misc
 
-* Disable Overlay Scrollbars
+* Convert .csv file to .ods
     
-    https://forums.linuxmint.com/viewtopic.php?t=298083  
-
-* Desktop Entry Specification
+    https://askubuntu.com/questions/1105378/  
     
-    [https://specifications.freedesktop.org/desktop-entry-spec/de](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)  
-
-* Where is XDG_CONFIG_DIRS set ?
-    
-    https://askubuntu.com/questions/1179729/  
-
-* The offending /etc/xdg/xfce4/xinitrc script
-    
-    https://gist.github.com/ncraike/6204799  
-
-* The Bash Shell Startup Files
-    
-    [https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/prof](https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/profile.html)  
-
-* /usr/share/applications/hplj1020.desktop
-    
-    [https://www.apt-browse.org/browse/debian/jessie/main/all/pri](https://www.apt-browse.org/browse/debian/jessie/main/all/printer-driver-foo2zjs-common/20140925dfsg0-3/file/usr/share/applications/hplj1020.desktop)  
+    `soffice --convert-to ods example.csv --headless`
 
 
