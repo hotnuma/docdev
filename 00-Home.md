@@ -6,13 +6,45 @@
 
 #### Libraries
 
-    libgudev : libgudev-1.0-dev
-    pcre : libpcre3-dev
-    pcre2 : libpcre2-dev
-    libxml2 : libxml2-dev
+* Packages Names
+
+    ```
+    gettext
+    libdbus-1-dev
+    libexiv2-dev
+    libexo-2-dev
+    libexpat1-dev
+    libgdk-pixbuf-2.0-dev
+    libglib2.0-dev
+    libgtk2.0-dev
+    libgtk-3-dev
+    libgudev-1.0-dev
+    libmount-dev
+    libnotify-dev
+    libpcre3-dev (pcre)
+    libpcre2-dev (pcre2)
+    libpng-dev
+    libprocps-dev
+    libsm-dev
+    libthunarx-3-dev
+    libtinyxml-dev
+    libusb-dev
+    libxml2-dev
+    libx11-dev
+    libxfce4ui-2-dev
+    libxfce4util-dev
+    libxfconf-0-dev
+    libz3-dev
+    libzen-dev
+    ```
+
 
 
 #### Freedesktop
+
+* Desktop Entry Specification
+    
+    [https://specifications.freedesktop.org/desktop-entry-spec/de](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)  
 
 * Icon names
     
@@ -38,13 +70,23 @@
 
 
 
-#### Tools
+#### Code Formatting
 
 * astyle
     
     One file : `astyle -n --style=allman thunar-window.c`
 
     Recursive : `astyle -nr --style=allman "test/*.h" "test/*.c"`
+
+* other
+    
+    https://github.com/rishirdua/awesome-code-formatters  
+    https://uncrustify.sourceforge.net/  
+    https://clang.llvm.org/docs/ClangFormat.html  
+    https://www.gnu.org/software/indent/  
+
+
+#### Tools
 
 * Valgrind
     

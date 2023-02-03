@@ -104,10 +104,6 @@
     
     https://forums.linuxmint.com/viewtopic.php?t=298083  
 
-* Desktop Entry Specification
-    
-    [https://specifications.freedesktop.org/desktop-entry-spec/de](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)  
-
 * Where is XDG_CONFIG_DIRS set ?
     
     https://askubuntu.com/questions/1179729/  
