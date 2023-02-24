@@ -121,11 +121,6 @@
     https://gitlab.gnome.org/GNOME/libgtop  
     https://github.com/htop-dev/htop/  
     
-* Memory usage
-    
-    https://stackoverflow.com/questions/41224738/  
-    [https://github.com/lxde/lxpanel/](https://github.com/lxde/lxpanel/blob/master/plugins/monitors/monitors.c#L296)  
-
 
 
 #### Misc
