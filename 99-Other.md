@@ -20,6 +20,80 @@
 
 #### Articles
 
+* Text encoding detector
+    
+    https://gitlab.freedesktop.org/uchardet/uchardet  
+    https://github.com/Joungkyun/libchardet  
+    https://utrac.sourceforge.net/  
+
+* Alternative to deprecated gtk_alignment_new
+    
+    [https://stackoverflow.com/questions/58746046/alternative-to-](https://stackoverflow.com/questions/58746046/alternative-to-deprecated-gtk-alignment-new)
+
+* Reporting information using syslog
+    
+    [https://stackoverflow.com/questions/18658429/reporting-infor](https://stackoverflow.com/questions/18658429/reporting-information-using-syslog)
+
+* Current directory in C
+    
+    https://stackoverflow.com/questions/298510/  
+
+* GLib Event Loop
+    
+    [http://devlib.symbian.slions.net/s3/GUID-7FD05006-09C1-4EF4-](http://devlib.symbian.slions.net/s3/GUID-7FD05006-09C1-4EF4-A2EB-AD98C2FA8866.html)
+
+* GLib Main Contexts
+    
+    [https://developer-old.gnome.org/programming-guidelines/stabl](https://developer-old.gnome.org/programming-guidelines/stable/main-contexts.html.en)
+
+* How to convert an Autotools project to Meson
+    
+    [https://nibblestew.blogspot.com/2016/09/how-to-convert-autot](https://nibblestew.blogspot.com/2016/09/how-to-convert-autotools-project-to.html)
+
+* pibright/meson.build
+    
+    [https://github.com/krishenriksen/pibright/blob/master/meson.](https://github.com/krishenriksen/pibright/blob/master/meson.build)
+
+* coreutils - How can I display octal notation of permissions with ls - and can octal represent all permissions? - Unix &amp; Linux Stack Exchange
+    
+    [https://unix.stackexchange.com/questions/76521/how-can-i-dis](https://unix.stackexchange.com/questions/76521/how-can-i-display-octal-notation-of-permissions-with-ls-and-can-octal-represen)
+
+* The /proc Filesystem — The Linux Kernel documentation
+    
+    https://www.kernel.org/doc/html/latest/filesystems/proc.html
+
+* linux/proc.rst at master · torvalds/linux
+    
+    [https://github.com/torvalds/linux/blob/master/Documentation/](https://github.com/torvalds/linux/blob/master/Documentation/filesystems/proc.rst)
+
+* Eject USB drives / eject command - Unix &amp; Linux Stack Exchange
+    
+    [https://unix.stackexchange.com/questions/35508/eject-usb-dri](https://unix.stackexchange.com/questions/35508/eject-usb-drives-eject-command)
+
+* The /proc/meminfo File in Linux | Baeldung on Linux
+    
+    https://www.baeldung.com/linux/proc-meminfo
+
+* benchmarking - Execution time of C program - Stack Overflow
+    
+    [https://stackoverflow.com/questions/5248915/execution-time-o](https://stackoverflow.com/questions/5248915/execution-time-of-c-program)
+
+* How to get execution time of c program? - Stack Overflow
+    
+    [https://stackoverflow.com/questions/55344890/how-to-get-exec](https://stackoverflow.com/questions/55344890/how-to-get-execution-time-of-c-program)
+
+* Journalctl cheat sheet with 10+ commands to filter systemd logs | GoLinuxCloud
+    
+    [https://www.golinuxcloud.com/view-logs-using-journalctl-filt](https://www.golinuxcloud.com/view-logs-using-journalctl-filter-journald/)
+
+* How to stop sudo PAM messages in auth.log for a specific user? - Unix &amp; Linux Stack Exchange
+    
+    [https://unix.stackexchange.com/questions/224370/how-to-stop-](https://unix.stackexchange.com/questions/224370/how-to-stop-sudo-pam-messages-in-auth-log-for-a-specific-user)
+
+* systemd - Stop excessive logging of SUDO &amp; SSH logins to syslog &amp; wtmp for a specific user account - Unix &amp; Linux Stack Exchange
+    
+    [https://unix.stackexchange.com/questions/637227/stop-excessi](https://unix.stackexchange.com/questions/637227/stop-excessive-logging-of-sudo-ssh-logins-to-syslog-wtmp-for-a-specific-user)
+
 * GTK3 and multithreading
     
     [https://stackoverflow.com/questions/30607429/gtk3-and-multit](https://stackoverflow.com/questions/30607429/gtk3-and-multithreading-replacing-deprecated-functions)
@@ -144,5 +218,43 @@
 * Windows 95 theme
     
     https://github.com/grassmunk/Chicago95
+
+
+
+
+#### Memory usage
+
+* /proc/meminfo
+    
+    https://access.redhat.com/solutions/406773  
+    https://stackoverflow.com/questions/131303/  
+    [http://virtualthreads.blogspot.com/2006/02/understanding-mem](http://virtualthreads.blogspot.com/2006/02/understanding-memory-usage-on-linux.html)  
+    https://unix.stackexchange.com/questions/34795/  
+    https://github.com/Alyust/smem  
+
+
+
+
+
+
+#### Image Viewers
+
+* City-busz/gpicview at gtk3
+    
+    https://github.com/City-busz/gpicview/tree/gtk3
+
+* hellosiyan/Viewnior: Elegant Image Viewer
+    
+    https://github.com/hellosiyan/Viewnior
+
+* phillipberndt/pqiv: Powerful image viewer with minimal UI
+    
+    https://github.com/phillipberndt/pqiv
+
+* 4 lightweight image viewers for the Linux desktop | Opensource.com
+    
+    [https://opensource.com/article/17/7/4-lightweight-image-view](https://opensource.com/article/17/7/4-lightweight-image-viewers-linux-desktop)
+
+
 
 
