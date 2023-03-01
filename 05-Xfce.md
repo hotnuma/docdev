@@ -13,6 +13,27 @@
     https://gitlab.xfce.org/xfce  
     https://developer.xfce.org/  
 
+* Where is XDG_CONFIG_DIRS set ?
+    
+    https://askubuntu.com/questions/1179729/  
+
+* The offending /etc/xdg/xfce4/xinitrc script
+    
+    https://gist.github.com/ncraike/6204799  
+
+* The Bash Shell Startup Files
+    
+    [https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/prof](https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/profile.html)  
+
+* XDG MIME Applications - ArchWiki
+    
+    https://wiki.archlinux.org/title/XDG_MIME_Applications
+
+* XDG Dirs
+
+    https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
+    https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
+
 
 
 #### Session

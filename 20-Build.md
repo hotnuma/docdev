@@ -30,6 +30,13 @@
     https://github.com/mesonbuild/meson/blob/master/tools/cmake2meson.py  
 
 
+#### Examples
+
+* pibright/meson.build
+    
+    [https://github.com/krishenriksen/pibright/blob/master/meson.](https://github.com/krishenriksen/pibright/blob/master/meson.build)
+
+
 
 #### Dependencies
 
@@ -59,7 +66,7 @@
 
 * Find program dependencies
     
-    https://unix.stackexchange.com/questions/120015/
+    https://unix.stackexchange.com/questions/120015/  
 
 * fix library error
 
