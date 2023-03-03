@@ -19,21 +19,22 @@
     libgtk2.0-dev
     libgtk-3-dev
     libgudev-1.0-dev
-    libmount-dev
     libnotify-dev
+    libmount-dev
     libpcre3-dev (pcre)
     libpcre2-dev (pcre2)
     libpng-dev
+    libpolkit-gobject-1-dev
     libprocps-dev
     libsm-dev
     libthunarx-3-dev
     libtinyxml-dev
     libusb-dev
-    libxml2-dev
     libx11-dev
     libxfce4ui-2-dev
     libxfce4util-dev
     libxfconf-0-dev
+    libxml2-dev
     libz3-dev
     libzen-dev
     ```
