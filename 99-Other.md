@@ -20,6 +20,10 @@
 
 #### Articles
 
+* Polkit applications
+    
+    https://www.freedesktop.org/software/polkit/docs/0.105/polkit-apps.html  
+
 * Reporting information using syslog
     
     https://stackoverflow.com/questions/18658429/  

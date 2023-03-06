@@ -13,35 +13,15 @@
     https://gitlab.xfce.org/xfce  
     https://developer.xfce.org/  
 
-* Where is XDG_CONFIG_DIRS set ?
+
+
+#### Sessions
+
+* Desktop sessions
     
-    https://askubuntu.com/questions/1179729/  
-
-* The offending /etc/xdg/xfce4/xinitrc script
-    
-    https://gist.github.com/ncraike/6204799  
-
-* The Bash Shell Startup Files
-    
-    [https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/prof](https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/profile.html)  
-
-* XDG MIME Applications - ArchWiki
-    
-    https://wiki.archlinux.org/title/XDG_MIME_Applications
-
-* XDG Dirs
-
-    https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
-    https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
-
-
-
-#### Session
-
-* XSessions
-
+    https://askubuntu.com/questions/77191/  
     https://askubuntu.com/questions/62833/  
-
+    
     ```
     /usr/share/xsessions/xubuntu.desktop
     /usr/share/xsessions/xfce.desktop
@@ -58,11 +38,51 @@
     
     Show configuration : `lightdm --show-config`
 
+* startup
+
+    ```
+    /sbin/ini
+        
+        graphical.target
+
+        lightdm
+            Xorg
+            lightdm --session-child
+                xfce4-session
+        
+        agetty
+        systemd/systemd --user
+    ```
+
+* Bash Startup Files
     
-#### Xdg
+    [https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/prof](https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/profile.html)  
+
+
+
+#### Configuration
+
+* Profile
+
+    ```
+    /etc/environment
+    $HOME/.profile
+    /etc/profile
+    ```
+
+* Default config
     
-* Environment
+    ```
+    /etc/skel/.config
+    ```
+
+* XDG_CONFIG_DIRS
     
+    https://askubuntu.com/questions/1179729/  
+
+    https://xubuntu-users.narkive.com/yXIe6V85/difference-between-etc-xdg-and-etc-xdg-xdg-xubuntu  
+    https://gitlab.xfce.org/xfce/xfce4-session/-/issues/50  
+
     ```
     $XDG_CONFIG_DIRS : /etc/xdg/xdg-xubuntu:/etc/xdg
     ```
@@ -82,12 +102,6 @@
     /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     ```
 
-* Prefered applications
-
-    ```
-    /etc/xdg/xfce4/helpers.rc
-    ```
-    
 * Xdg menu
     
     ```
@@ -99,9 +113,13 @@
     
     ```
     $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
-    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
     /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
     ```
+
+* The offending /etc/xdg/xfce4/xinitrc script
+    
+    https://gist.github.com/ncraike/6204799  
 
 * XF86 Multimedia Keys
     
@@ -109,8 +127,23 @@
 
 
 
-#### Share
+#### Applications
 
+* Launchers
+
+    ```
+    $HOME/.local/share/applications/
+    /usr/share/xubuntu/applications/
+    /usr/share/applications/
+    /usr/local/share/applications/
+    ```
+
+* Prefered applications
+
+    ```
+    /etc/xdg/xfce4/helpers.rc
+    ```
+    
 * Default Applications
     
     ```
@@ -121,89 +154,21 @@
     /usr/share/applications/defaults.list
     /etc/gnome/defaults.list
     ```
+
+* XDG MIME Applications
     
-* Desktop sessions
-    
-    `/usr/share/xsessions/`
-    
-    https://askubuntu.com/questions/77191/  
-    
-* Applications
-
-    ```
-    $HOME/.local/share/applications/
-    /usr/share/xubuntu/applications/
-    /usr/share/applications/
-    /usr/local/share/applications/
-    ```
-
-* Wallpapers
-
-    ```
-    $HOME/.local/share/xfce4/backdrops/
-    /usr/share/backgrounds/
-    /usr/share/xfce4/backdrops/
-    /usr/share/xfce4/backdrops/xfce/
-    ```
+    https://wiki.archlinux.org/title/XDG_MIME_Applications
 
 
 
-#### Other
+#### Themes
 
-* Profile
-
-    ```
-    /etc/environment
-    $HOME/.profile
-    /etc/profile
-    ```
-
-* xfconf-query
-    
-    https://docs.xfce.org/xfce/xfconf/xfconf-query  
-    [http://manpages.ubuntu.com/manpages/...](http://manpages.ubuntu.com/manpages/bionic/man1/xfconf-query.1.html)  
-
-* Thunar Custom Actions
-    
-    https://docs.xfce.org/xfce/thunar/4.12/custom-actions  
-    https://forum.xfce.org/viewtopic.php?id=12633  
-    
-    ```
-    xfce4-terminal -e 'bash -c "extract.sh %f; bash"'
-    ```
-
-* Default config
-    
-    ```
-    /etc/skel/.config
-    ```
-
-* Themes
+* Location
     
     ```
     $HOME/.themes/
     ```
 
-
-
-#### Startup
-
-* init
-
-    ```
-    /sbin/ini
-        
-        graphical.target
-
-        lightdm
-            Xorg
-            lightdm --session-child
-                xfce4-session
-        
-        agetty
-        systemd/systemd --user
-    ```
-    
 * Desktop background
     
     ```
@@ -214,15 +179,31 @@
     feh --bg-scale /usr/share/rpd-wallpaper/clouds.jpg
     ```
 
+* Wallpapers
+
+    ```
+    $HOME/.local/share/xfce4/backdrops/
+    /usr/share/xfce4/backdrops/
+    /usr/share/xfce4/backdrops/xfce/
+    /usr/share/backgrounds/
+    ```
 
 
-#### Articles
+#### Other
 
-* Gtk File Chooser
+* Thunar Custom Actions
     
-    https://gitlab.xfce.org/xfce/thunar/-/issues/547  
-    [https://www.reddit.com/r/xfce/comments/kk8xo5/file_chooser_b](https://www.reddit.com/r/xfce/comments/kk8xo5/file_chooser_buttons_in_csd_titlebar_not_of/)  
-    [https://superuser.com/questions/944119/replace-gtk-file-dial](https://superuser.com/questions/944119/replace-gtk-file-dialog-with-alternative)  
+    https://docs.xfce.org/xfce/thunar/4.12/custom-actions  
+    https://forum.xfce.org/viewtopic.php?id=12633  
+    
+    ```
+    xfce4-terminal -e 'bash -c "extract.sh %f; bash"'
+    ```
+
+* xfconf-query
+    
+    https://docs.xfce.org/xfce/xfconf/xfconf-query  
+    [http://manpages.ubuntu.com/manpages/...](http://manpages.ubuntu.com/manpages/bionic/man1/xfconf-query.1.html)  
 
 * Xfce Classic Fork
     
