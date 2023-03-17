@@ -36,6 +36,10 @@
     
     [https://github.com/krishenriksen/pibright/blob/master/meson.](https://github.com/krishenriksen/pibright/blob/master/meson.build)
 
+* Installing GSettings schema
+    
+    [https://discourse.gnome.org/t/installing-gsettings-schema-wi](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)  
+
 
 
 #### Dependencies

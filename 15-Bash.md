@@ -26,7 +26,7 @@
     
     https://stackoverflow.com/questions/18568706/  
     
-    ```bash
+    ```
     if [[ $# != 1 ]]; then
         echo "Illegal number of parameters"
         exit 1
@@ -37,7 +37,7 @@
     
     https://stackoverflow.com/questions/192249/  
 
-    ```bash
+    ```
     #!/usr/bin/bash
 
     DEV=0
@@ -68,7 +68,7 @@
     
     https://stackoverflow.com/questions/21425006/  
     
-    ```bash
+    ```
     #!/bin/bash
 
     inpath="file.html"
@@ -82,7 +82,7 @@
     
     https://stackoverflow.com/questions/1224766/  
 
-    ```bash
+    ```
     inpath=file.md
     outpath=${inpath%.md}.html
     ```
@@ -90,7 +90,7 @@
     
     https://linuxize.com/post/bash-heredoc/  
     
-    ```bash
+    ```
     dest=~/test.txt
     sudo tee $dest > /dev/null << EOF
     bla
@@ -113,7 +113,7 @@
 
 * Parse sub directories
 
-    ```bash
+    ```
     #!/usr/bin/bash
 
     for dir in $PWD/*; do
@@ -135,7 +135,7 @@
     
     https://stackoverflow.com/questions/42875809/  
     
-    ```bash
+    ```
     if [[ "$EUID" = 0 ]]; then
         echo "(1) already root"
     else

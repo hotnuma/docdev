@@ -35,22 +35,7 @@
 * Execution time of C program
     
     https://stackoverflow.com/questions/5248915/  
-
-* How to get execution time of c program? - Stack Overflow
-    
     https://stackoverflow.com/questions/55344890/  
-
-* Installing GSettings schema with meson - Platform - GNOME Discourse
-    
-    [https://discourse.gnome.org/t/installing-gsettings-schema-wi](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)
-
-* Re: redirecting stdout to gtk_text widget
-    
-    [https://mail.gnome.org/archives/gtk-list/2006-February/msg00](https://mail.gnome.org/archives/gtk-list/2006-February/msg00040.html)
-
-* console - How to rediredt the stdout in a text window - c programming - Stack Overflow
-    
-    [https://stackoverflow.com/questions/48478615/how-to-rediredt](https://stackoverflow.com/questions/48478615/how-to-rediredt-the-stdout-in-a-text-window-c-programming)
 
 
 
@@ -72,10 +57,11 @@
 
 
 
-
-
-
 #### Gtk / Glib
+
+* Détails du paquet libgtk-3-doc
+    
+    https://packages.ubuntu.com/focal/libgtk-3-doc  
 
 * Alternative to deprecated gtk_alignment_new
     
@@ -93,15 +79,16 @@
     
     https://stackoverflow.com/questions/30607429/
 
-* Ubuntu – Détails du paquet libgtk-3-doc dans focal
+* Redirect stdout in a text window
     
-    https://packages.ubuntu.com/focal/libgtk-3-doc  
+    [https://stackoverflow.com/questions/48478615/how-to-rediredt](https://stackoverflow.com/questions/48478615/how-to-rediredt-the-stdout-in-a-text-window-c-programming)  
+    [https://mail.gnome.org/archives/gtk-list/2006-February/msg00](https://mail.gnome.org/archives/gtk-list/2006-February/msg00040.html)  
 
-* a gentle introduction to gobject construction – a lowercase manifesto
+* A gentle introduction to gobject construction
     
     [https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introducti](https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introduction-to-gobject-construction/)
 
-* GTK+ By Example/Tree View/Tree Models - Wikibooks, open books for an open world
+* Tree View/Tree Models
     
     [https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tr](https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models)
 
@@ -109,15 +96,12 @@
     
     https://stackoverflow.com/questions/24453266/  
 
-* When should I use g_object_unref() - Platform - GNOME Discourse
+* When should I use g_object_unref
     
-    [https://discourse.gnome.org/t/when-should-i-use-g-object-unr](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)
+    [https://discourse.gnome.org/t/when-should-i-use-g-object-unr](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
+    [https://stackoverflow.com/questions/2848273/should-a-g-objec](https://stackoverflow.com/questions/2848273/should-a-g-object-new-have-a-matching-g-object-unref)  
 
-* c - Should a g_object_new have a matching g_object_unref? - Stack Overflow
-    
-    [https://stackoverflow.com/questions/2848273/should-a-g-objec](https://stackoverflow.com/questions/2848273/should-a-g-object-new-have-a-matching-g-object-unref)
-
-* Glade Not Recommended – Chris&#39;s Design &amp; Development
+* Glade Not Recommended
     
     [https://blogs.gnome.org/christopherdavis/2020/11/19/glade-no](https://blogs.gnome.org/christopherdavis/2020/11/19/glade-not-recommended/)
 
