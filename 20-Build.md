@@ -32,9 +32,10 @@
 
 #### Examples
 
-* pibright/meson.build
+* Examples
     
-    [https://github.com/krishenriksen/pibright/blob/master/meson.](https://github.com/krishenriksen/pibright/blob/master/meson.build)
+    [https://github.com/krishenriksen/pibright/blob/master/meson.](https://github.com/krishenriksen/pibright/blob/master/meson.build)  
+    https://github.com/alexkdeveloper/desktop-files-creator  
 
 * Installing GSettings schema
     
