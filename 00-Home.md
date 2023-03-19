@@ -8,36 +8,37 @@
 
 * Packages Names
 
-    ```
-    gettext
-    libdbus-1-dev
-    libexiv2-dev
-    libexo-2-dev
-    libexpat1-dev
-    libgdk-pixbuf-2.0-dev
-    libglib2.0-dev
-    libgtk2.0-dev
-    libgtk-3-dev
-    libgudev-1.0-dev
-    libnotify-dev
-    libmount-dev
-    libpcre3-dev (pcre)
-    libpcre2-dev (pcre2)
-    libpng-dev
-    libpolkit-gobject-1-dev
-    libprocps-dev
-    libsm-dev
-    libthunarx-3-dev
-    libtinyxml-dev
-    libusb-dev
-    libx11-dev
-    libxfce4ui-2-dev
-    libxfce4util-dev
-    libxfconf-0-dev
-    libxml2-dev
-    libz3-dev
-    libzen-dev
-    ```
+    | Package Name            | PkgConfig               |
+    | :---------------------- | :---------------------- |
+    | gettext                 |                         |
+    | libdbus-1-dev           | dbus-1                  |
+    | libexiv2-dev            | exiv2                   |
+    | libexo-2-dev            | exo-2                   |
+    | libexpat1-dev           | expat                   |
+    | libgdk-pixbuf-2.0-dev   | gdk-pixbuf-2.0          |
+    | libglib2.0-dev          | glib-2.0                |
+    | libgtk2.0-dev           |                         |
+    | libgtk-3-dev            | gtk+-3.0                |
+    | libgudev-1.0-dev        | gudev-1.0               |
+    | libgumbo-dev            | gumbo                   |
+    | libmount-dev            | mount                   |
+    | libnotify-dev           | libnotify               |
+    | libpcre3-dev (pcre)     | libpcre                 |
+    | libpcre2-dev (pcre2)    |                         |
+    | libpng-dev              | libpng                  |
+    | libpolkit-gobject-1-dev | polkit-gobject-1        |
+    | libprocps-dev           | libprocps               |
+    | libsm-dev               | sm                      |
+    | libthunarx-3-dev        | thunarx-3               |
+    | libtinyxml-dev          | tinyxml                 |
+    | libusb-dev              | libusb                  |
+    | libx11-dev              | x11                     |
+    | libxfce4ui-2-dev        | libxfce4ui-2            |
+    | libxfce4util-dev        | libxfce4util-1.0        |
+    | libxfconf-0-dev         | libxfconf-0             |
+    | libxml2-dev             | libxml-2.0              |
+    | libz3-dev               | z3                      |
+    | libzen-dev              | libzen                  |
 
 
 
