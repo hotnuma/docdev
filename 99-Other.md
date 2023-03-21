@@ -20,6 +20,10 @@
 
 #### Articles
 
+* Parse html using C
+    
+    [https://stackoverflow.com/questions/1527883/parse-html-using](https://stackoverflow.com/questions/1527883/parse-html-using-c)  
+
 * Polkit applications
     
     https://www.freedesktop.org/software/polkit/docs/0.105/polkit-apps.html  
@@ -36,6 +40,10 @@
     
     https://stackoverflow.com/questions/5248915/  
     https://stackoverflow.com/questions/55344890/  
+
+* Tables in Markdown
+    
+    https://www.codecademy.com/resources/docs/markdown/tables  
 
 
 
