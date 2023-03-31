@@ -16,17 +16,9 @@
     https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/  
     [http://echorand.me/site/notes/articles/c_cleanup/cleanup_att](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
 
-* QtCreator printf
 
-    https://chowdera.com/2020/12/20201208210320326z.html  
-
-    `setbuf(stdout, NULL);`
 
 #### Functions
-
-* Simple Dynamic Strings
-    
-    https://github.com/antirez/sds  
 
 * String `starts_with`
     
@@ -127,7 +119,13 @@
 
 #### Articles
 
-* Qt Creator per-project tab spacing
+* QtCreator printf
+
+    https://chowdera.com/2020/12/20201208210320326z.html  
+
+    `setbuf(stdout, NULL);`
+
+* QtCreator per-project tab spacing
     
     [https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-pro](https://forum.qt.io/topic/86319/qt-creator-how-to-do-per-project-tab-spacing/4)
 
@@ -138,35 +136,5 @@
 * RAM usage of a process using its ID
     
     [https://stackoverflow.com/questions/67224020/how-do-i-find-t](https://stackoverflow.com/questions/67224020/how-do-i-find-the-ram-usage-of-a-process-using-its-id)
-
-
-
-<!--
-
-#### Libraries
-
-* Awesome C
-    
-    https://github.com/uhub/awesome-c  
-    
-#### XML Parser
-
-* A simple C XML parser - Stack Overflow
-    
-    [https://stackoverflow.com/questions/2851983/a-simple-c-xml-p](https://stackoverflow.com/questions/2851983/a-simple-c-xml-parser)
-
-* C XML library for Embedded Systems - Stack Overflow
-    
-    [https://stackoverflow.com/questions/1131701/c-xml-library-fo](https://stackoverflow.com/questions/1131701/c-xml-library-for-embedded-systems)
-
-* Is there a good tiny XML parser for an embedded C project? - Stack Overflow
-    
-    [https://stackoverflow.com/questions/3739474/is-there-a-good-](https://stackoverflow.com/questions/3739474/is-there-a-good-tiny-xml-parser-for-an-embedded-c-project)
-
-* xml.c
-    
-    https://github.com/ooxi/xml.c  
-    
--->
 
 
