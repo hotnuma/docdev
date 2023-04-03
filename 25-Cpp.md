@@ -16,6 +16,10 @@
     https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/  
     [http://echorand.me/site/notes/articles/c_cleanup/cleanup_att](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
 
+* Feature test macros
+    
+    https://manpages.ubuntu.com/manpages/xenial/en/man7/feature_test_macros.7.html  
+
 
 
 #### Functions
