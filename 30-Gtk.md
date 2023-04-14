@@ -8,13 +8,13 @@
 
 * Docs
     
+    https://developer-old.gnome.org/gtk3/3.24/  
+    <!--
     https://www.manpagez.com/html/gtk3/gtk3-3.24.31/index.php  
+    -->
     https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
     https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
-    <!--https://developer-old.gnome.org/gtk3/stable/-->  
 
-    https://gitlab.gnome.org/GNOME/gtk/-/commits/gtk-3-24/  
-    
 * Build simple program
     
     ```
@@ -34,9 +34,24 @@
 * Gtk
     
     https://zetcode.com/gui/gtk2/  
+    https://github.com/RainMark/gtk3-tutorial/tree/master/_examples  
+    https://python-gtk-3-tutorial.readthedocs.io/en/latest/gallery.html  
     [https://www.cc.gatech.edu/.../gtk_tut.html](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
-    https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-3-24/examples  
     https://toshiocp.github.io/Gtk4-tutorial/  
+
+* TreeView
+
+    https://docs.gtk.org/gtk3/treeview-tutorial.html  
+    http://scentric.net/tutorial/  
+    https://zetcode.com/gui/gtk2/gtktreeview/  
+    https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models  
+
+
+
+<!--
+
+https://gitlab.gnome.org/GNOME/gtk/-/commits/gtk-3-24/  
+https://gitlab.gnome.org/GNOME/gtk/-/tree/gtk-3-24/examples  
 
 * DnD
     
@@ -52,13 +67,6 @@
     https://stackoverflow.com/questions/52492939/  
     [https://stackoverflow.com/questions/19072161/](https://stackoverflow.com/questions/19072161/preventing-multiple-instances-of-a-gtk-application)  
     https://developer.gnome.org/documentation/tutorials/application.html  
-
-* TreeView
-
-    https://docs.gtk.org/gtk3/treeview-tutorial.html  
-    http://scentric.net/tutorial/  
-    https://zetcode.com/gui/gtk2/gtktreeview/  
-    https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models  
 
 * Custom Widgets
 
@@ -96,5 +104,7 @@
 * Gtk3-classic
     
     https://github.com/lah7/gtk3-classic  
+
+-->
 
 

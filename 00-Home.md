@@ -4,44 +4,6 @@
 
 ---
 
-#### Libraries
-
-* Packages Names
-
-    | Package Name            | PkgConfig               |
-    | :---------------------- | :---------------------- |
-    | gettext                 |                         |
-    | libdbus-1-dev           | dbus-1                  |
-    | libexiv2-dev            | exiv2                   |
-    | libexo-2-dev            | exo-2                   |
-    | libexpat1-dev           | expat                   |
-    | libgdk-pixbuf-2.0-dev   | gdk-pixbuf-2.0          |
-    | libglib2.0-dev          | glib-2.0                |
-    | libgtk2.0-dev           |                         |
-    | libgtk-3-dev            | gtk+-3.0                |
-    | libgudev-1.0-dev        | gudev-1.0               |
-    | libgumbo-dev            | gumbo                   |
-    | libmount-dev            | mount                   |
-    | libnotify-dev           | libnotify               |
-    | libpcre3-dev (pcre)     | libpcre                 |
-    | libpcre2-dev (pcre2)    |                         |
-    | libpng-dev              | libpng                  |
-    | libpolkit-gobject-1-dev | polkit-gobject-1        |
-    | libprocps-dev           | libprocps               |
-    | libsm-dev               | sm                      |
-    | libthunarx-3-dev        | thunarx-3               |
-    | libtinyxml-dev          | tinyxml                 |
-    | libusb-dev              | libusb                  |
-    | libx11-dev              | x11                     |
-    | libxfce4ui-2-dev        | libxfce4ui-2            |
-    | libxfce4util-dev        | libxfce4util-1.0        |
-    | libxfconf-0-dev         | libxfconf-0             |
-    | libxml2-dev             | libxml-2.0              |
-    | libz3-dev               | z3                      |
-    | libzen-dev              | libzen                  |
-
-
-
 #### Freedesktop
 
 * Desktop Entry Specification
@@ -86,6 +48,45 @@
     https://uncrustify.sourceforge.net/  
     https://clang.llvm.org/docs/ClangFormat.html  
     https://www.gnu.org/software/indent/  
+
+
+
+#### Libraries
+
+* Packages Names
+
+    | Package Name            | PkgConfig               |
+    | :---------------------- | :---------------------- |
+    | gettext                 |                         |
+    | libdbus-1-dev           | dbus-1                  |
+    | libexiv2-dev            | exiv2                   |
+    | libexo-2-dev            | exo-2                   |
+    | libexpat1-dev           | expat                   |
+    | libgdk-pixbuf-2.0-dev   | gdk-pixbuf-2.0          |
+    | libglib2.0-dev          | glib-2.0                |
+    | libgtk2.0-dev           |                         |
+    | libgtk-3-dev            | gtk+-3.0                |
+    | libgudev-1.0-dev        | gudev-1.0               |
+    | libgumbo-dev            | gumbo                   |
+    | libmount-dev            | mount                   |
+    | libnotify-dev           | libnotify               |
+    | libpcre3-dev (pcre)     | libpcre                 |
+    | libpcre2-dev (pcre2)    |                         |
+    | libpng-dev              | libpng                  |
+    | libpolkit-gobject-1-dev | polkit-gobject-1        |
+    | libprocps-dev           | libprocps               |
+    | libsm-dev               | sm                      |
+    | libthunarx-3-dev        | thunarx-3               |
+    | libtinyxml-dev          | tinyxml                 |
+    | libusb-dev              | libusb                  |
+    | libx11-dev              | x11                     |
+    | libxfce4ui-2-dev        | libxfce4ui-2            |
+    | libxfce4util-dev        | libxfce4util-1.0        |
+    | libxfconf-0-dev         | libxfconf-0             |
+    | libxml2-dev             | libxml-2.0              |
+    | libz3-dev               | z3                      |
+    | libzen-dev              | libzen                  |
+
 
 
 #### Tools
