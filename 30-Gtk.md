@@ -9,11 +9,16 @@
 * Docs
     
     https://developer-old.gnome.org/gtk3/3.24/  
-    <!--
-    https://www.manpagez.com/html/gtk3/gtk3-3.24.31/index.php  
-    -->
     https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
     https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
+
+* Tutorial
+    
+    https://zetcode.com/gui/gtk2/  
+    https://github.com/RainMark/gtk3-tutorial/tree/master/_examples  
+    https://python-gtk-3-tutorial.readthedocs.io/en/latest/gallery.html  
+    [https://www.cc.gatech.edu/.../gtk_tut.html](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
+    https://toshiocp.github.io/Gtk4-tutorial/  
 
 * Build simple program
     
@@ -30,14 +35,6 @@
 
 
 #### Tutorial
-
-* Gtk
-    
-    https://zetcode.com/gui/gtk2/  
-    https://github.com/RainMark/gtk3-tutorial/tree/master/_examples  
-    https://python-gtk-3-tutorial.readthedocs.io/en/latest/gallery.html  
-    [https://www.cc.gatech.edu/.../gtk_tut.html](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
-    https://toshiocp.github.io/Gtk4-tutorial/  
 
 * TreeView
 

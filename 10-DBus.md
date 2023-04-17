@@ -10,7 +10,7 @@
     
     https://dbus.freedesktop.org/doc/dbus-specification.html  
 
----
+<!--
 
 #### Other
 
@@ -115,5 +115,7 @@
 * udisks: UDisks Reference Manual
     
     http://storaged.org/doc/udisks2-api/latest/udisks.8.html
+
+-->
 
 
