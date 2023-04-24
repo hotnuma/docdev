@@ -11,6 +11,7 @@
     https://developer-old.gnome.org/gtk3/3.24/  
     https://www.manpagez.com/html/glib/glib-2.56.0/index.php  
     https://www.manpagez.com/html/gio/gio-2.56.0/index.php  
+    https://specifications.freedesktop.org/icon-naming-spec/latest/ar01s04.html  
 
 * Tutorial
     
