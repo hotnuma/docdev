@@ -1,6 +1,6 @@
 **[ [Home](00-Home.html) | [Xfce](05-Xfce.html) | [DBus](10-DBus.html) | [Bash](15-Bash.html) | [Build](20-Build.html) | Cpp | [Gtk](30-Gtk.html) | [Git](35-Git.html) | [Other](99-Other.html) ]**
 
-## Cpp
+## C/Cpp
 
 ---
 
@@ -19,6 +19,27 @@
 * Feature test macros
     
     https://manpages.ubuntu.com/manpages/xenial/en/man7/feature_test_macros.7.html  
+
+* Parse html using C
+    
+    [https://stackoverflow.com/questions/1527883/parse-html-using](https://stackoverflow.com/questions/1527883/parse-html-using-c)  
+
+* Polkit applications
+    
+    https://www.freedesktop.org/software/polkit/docs/0.105/polkit-apps.html  
+
+* Reporting information using syslog
+    
+    https://stackoverflow.com/questions/18658429/  
+
+* Current directory in C
+    
+    https://stackoverflow.com/questions/298510/  
+
+* Execution time of C program
+    
+    https://stackoverflow.com/questions/5248915/  
+    https://stackoverflow.com/questions/55344890/  
 
 
 

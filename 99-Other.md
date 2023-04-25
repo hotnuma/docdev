@@ -20,27 +20,6 @@
 
 #### Articles
 
-* Parse html using C
-    
-    [https://stackoverflow.com/questions/1527883/parse-html-using](https://stackoverflow.com/questions/1527883/parse-html-using-c)  
-
-* Polkit applications
-    
-    https://www.freedesktop.org/software/polkit/docs/0.105/polkit-apps.html  
-
-* Reporting information using syslog
-    
-    https://stackoverflow.com/questions/18658429/  
-
-* Current directory in C
-    
-    https://stackoverflow.com/questions/298510/  
-
-* Execution time of C program
-    
-    https://stackoverflow.com/questions/5248915/  
-    https://stackoverflow.com/questions/55344890/  
-
 * Tables in Markdown
     
     https://www.codecademy.com/resources/docs/markdown/tables  
@@ -62,55 +41,5 @@
     [http://virtualthreads.blogspot.com/2006/02/understanding-mem](http://virtualthreads.blogspot.com/2006/02/understanding-memory-usage-on-linux.html)  
     https://unix.stackexchange.com/questions/34795/  
     https://github.com/Alyust/smem  
-
-
-
-#### Gtk / Glib
-
-* Détails du paquet libgtk-3-doc
-    
-    https://packages.ubuntu.com/focal/libgtk-3-doc  
-
-* Alternative to deprecated gtk_alignment_new
-    
-    https://stackoverflow.com/questions/58746046/
-
-* GLib Event Loop
-    
-    [http://devlib.symbian.slions.net/s3/GUID-7FD05006-09C1-4EF4-](http://devlib.symbian.slions.net/s3/GUID-7FD05006-09C1-4EF4-A2EB-AD98C2FA8866.html)
-
-* GLib Main Contexts
-    
-    [https://developer-old.gnome.org/programming-guidelines/stabl](https://developer-old.gnome.org/programming-guidelines/stable/main-contexts.html.en)
-
-* GTK3 and multithreading
-    
-    https://stackoverflow.com/questions/30607429/
-
-* Redirect stdout in a text window
-    
-    [https://stackoverflow.com/questions/48478615/how-to-rediredt](https://stackoverflow.com/questions/48478615/how-to-rediredt-the-stdout-in-a-text-window-c-programming)  
-    [https://mail.gnome.org/archives/gtk-list/2006-February/msg00](https://mail.gnome.org/archives/gtk-list/2006-February/msg00040.html)  
-
-* A gentle introduction to gobject construction
-    
-    [https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introducti](https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introduction-to-gobject-construction/)
-
-* Tree View/Tree Models
-    
-    [https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tr](https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models)
-
-* Check if a gobject was correctly freed
-    
-    https://stackoverflow.com/questions/24453266/  
-
-* When should I use g_object_unref
-    
-    [https://discourse.gnome.org/t/when-should-i-use-g-object-unr](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
-    [https://stackoverflow.com/questions/2848273/should-a-g-objec](https://stackoverflow.com/questions/2848273/should-a-g-object-new-have-a-matching-g-object-unref)  
-
-* Glade Not Recommended
-    
-    [https://blogs.gnome.org/christopherdavis/2020/11/19/glade-no](https://blogs.gnome.org/christopherdavis/2020/11/19/glade-not-recommended/)
 
 
