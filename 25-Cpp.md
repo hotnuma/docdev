@@ -12,17 +12,30 @@
 
 * GCC cleanup attribute
     
-    [https://blog.fishsoup.net/2015/11/05/attributecleanup-mixed-](https://blog.fishsoup.net/2015/11/05/attributecleanup-mixed-declarations-and-code-and-goto/)  
-    https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/  
-    [http://echorand.me/site/notes/articles/c_cleanup/cleanup_att](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
+    [attribute-cleanup](https://blog.fishsoup.net/2015/11/05/attributecleanup-mixed-declarations-and-code-and-goto/)  
+    [g_autoptr](https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/)  
+    [echorand-cleanup](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
+
+* Current directory in C
+    
+    https://stackoverflow.com/questions/298510/  
+
+* Parse html using C
+    
+    https://stackoverflow.com/questions/1527883/  
+
+* Execution time of C program
+    
+    https://stackoverflow.com/questions/5248915/  
+    https://stackoverflow.com/questions/55344890/  
+
+* Clear the console
+    
+    [https://stackoverflow.com/questions/228617/how-do-i-clear-th](https://stackoverflow.com/questions/228617/how-do-i-clear-the-console-in-both-windows-and-linux-using-c)  
 
 * Feature test macros
     
     https://manpages.ubuntu.com/manpages/xenial/en/man7/feature_test_macros.7.html  
-
-* Parse html using C
-    
-    [https://stackoverflow.com/questions/1527883/parse-html-using](https://stackoverflow.com/questions/1527883/parse-html-using-c)  
 
 * Polkit applications
     
@@ -32,22 +45,13 @@
     
     https://stackoverflow.com/questions/18658429/  
 
-* Current directory in C
-    
-    https://stackoverflow.com/questions/298510/  
-
-* Execution time of C program
-    
-    https://stackoverflow.com/questions/5248915/  
-    https://stackoverflow.com/questions/55344890/  
-
 
 
 #### Functions
 
-* String `starts_with`
+* string `starts_with`
     
-    [https://stackoverflow.com/questions/4770985/](https://stackoverflow.com/questions/4770985/how-to-check-if-a-string-starts-with-another-string-in-c)
+    https://stackoverflow.com/questions/4770985/  
 
 * `_vscprintf`
     

@@ -8,10 +8,10 @@
 
 * Links
     
-    https://forum.xfce.org/search.php?action=show_recent  
-    https://www.reddit.com/r/xfce/  
-    https://gitlab.xfce.org/xfce  
-    https://developer.xfce.org/  
+    [xfce-forum](https://forum.xfce.org/search.php?action=show_recent)  
+    [xfce-reddit](https://www.reddit.com/r/xfce/)  
+    [xfce-gitlab](https://gitlab.xfce.org/xfce)  
+    [xfce-developer](https://developer.xfce.org/)  
 
 
 

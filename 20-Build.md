@@ -24,22 +24,16 @@
 
 * Porting projects
     
-    https://mesonbuild.com/Porting-from-autotools.html  
-    https://nibblestew.blogspot.com/2016/09/how-to-convert-autotools-project-to.html  
-    https://github.com/mesonbuild/meson/blob/master/tools/ac_converter.py  
-    https://github.com/mesonbuild/meson/blob/master/tools/cmake2meson.py  
-
-
-#### Examples
+    [porting-from-autotools](https://mesonbuild.com/Porting-from-autotools.html)  
+    [convert-autotools](https://nibblestew.blogspot.com/2016/09/how-to-convert-autotools-project-to.html)  
+    [mesonbuild-ac_converter.py](https://github.com/mesonbuild/meson/blob/master/tools/ac_converter.py)  
+    [mesonbuild-cmake2meson.py](https://github.com/mesonbuild/meson/blob/master/tools/cmake2meson.py)  
 
 * Examples
     
-    [https://github.com/krishenriksen/pibright/blob/master/meson.](https://github.com/krishenriksen/pibright/blob/master/meson.build)  
-    https://github.com/alexkdeveloper/desktop-files-creator  
-
-* Installing GSettings schema
-    
-    [https://discourse.gnome.org/t/installing-gsettings-schema-wi](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)  
+    [krishenriksen-pibright](https://github.com/krishenriksen/pibright/blob/master/meson.build)  
+    [desktop-files-creator](https://github.com/alexkdeveloper/desktop-files-creator)  
+    [installing-gsettings-schema](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)  
 
 
 

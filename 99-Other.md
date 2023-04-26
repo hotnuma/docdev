@@ -17,29 +17,3 @@
     https://github.com/IgnorantGuru?tab=repositories  
 
 
-
-#### Articles
-
-* Tables in Markdown
-    
-    https://www.codecademy.com/resources/docs/markdown/tables  
-
-
-
-#### The /proc Filesystem
-
-* References
-    
-    https://www.kernel.org/doc/html/latest/filesystems/proc.html  
-    [https://github.com/torvalds/linux/blob/master/Documentation/](https://github.com/torvalds/linux/blob/master/Documentation/filesystems/proc.rst)  
-    https://www.baeldung.com/linux/proc-meminfo  
-
-* /proc/meminfo
-    
-    https://access.redhat.com/solutions/406773  
-    https://stackoverflow.com/questions/131303/  
-    [http://virtualthreads.blogspot.com/2006/02/understanding-mem](http://virtualthreads.blogspot.com/2006/02/understanding-memory-usage-on-linux.html)  
-    https://unix.stackexchange.com/questions/34795/  
-    https://github.com/Alyust/smem  
-
-

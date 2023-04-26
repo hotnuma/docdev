@@ -6,6 +6,10 @@
 
 #### Reference
 
+* ShellCheck
+    
+    https://www.shellcheck.net/  
+
 * Advance Bash scripting
     
     https://tldp.org/LDP/abs/html/index.html  
@@ -19,6 +23,8 @@
     
     BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
     ```
+
+
 
 #### Args
 
