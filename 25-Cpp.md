@@ -20,6 +20,10 @@
     
     https://stackoverflow.com/questions/298510/  
 
+* C Function to retrieve argv contents to string
+    
+    https://stackoverflow.com/questions/66726401/  
+
 * Parse html using C
     
     https://stackoverflow.com/questions/1527883/  

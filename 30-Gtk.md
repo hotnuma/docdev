@@ -27,6 +27,7 @@
     [python-gtk-3-tutorial](https://python-gtk-3-tutorial.readthedocs.io/en/latest/gallery.html)  
     [gtk-tutorial](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
     [gtk4-tutorial](https://toshiocp.github.io/Gtk4-tutorial/)  
+    [gtk-gettext](https://developer-old.gnome.org/gtk4/stable/gtk-question-index.html)  
 
 * Build simple program
     
@@ -46,15 +47,19 @@
 
 * GObject
     
-    https://docs.gtk.org/gobject/tutorial.html  
+    [gobject-tutorial](https://docs.gtk.org/gobject/tutorial.html)  
+    [ginitiallyunowned](https://developer-old.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#GInitiallyUnowned)  
+    [gobject-memory](https://developer-old.gnome.org/gobject/stable/gobject-memory.html)  
+    [gobject-new-unref](https://stackoverflow.com/questions/2848273/)  
+    [gobject-floating-references](https://docs.gtk.org/gobject/floating-refs.html)  
 
-* g_object_new and matching g_object_unref
+* Toolbar
     
-    https://stackoverflow.com/questions/2848273/  
+    [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  
 
 * How to properly add images to buttons
     
-    [https://discourse.gnome.org/t/how-to-properly-add-images-to-](https://discourse.gnome.org/t/how-to-properly-add-images-to-buttons/1185/2)  
+    [add-images-to-buttons](https://discourse.gnome.org/t/how-to-properly-add-images-to-buttons/1185/2)  
 
 * TreeView
 
@@ -62,10 +67,6 @@
     [zetcode-gtk2-treeview](https://zetcode.com/gui/gtk2/gtktreeview/)  
     [wikibooks-gtk-treeview](https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models)  
     
-* Toolbar
-    
-    [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  
-
 * DnD
     
     https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
