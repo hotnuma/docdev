@@ -53,6 +53,10 @@
     [gobject-new-unref](https://stackoverflow.com/questions/2848273/)  
     [gobject-floating-references](https://docs.gtk.org/gobject/floating-refs.html)  
 
+* GtkApplication
+    
+    https://developer-old.gnome.org/GtkApplication/  
+    
 * Toolbar
     
     [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  

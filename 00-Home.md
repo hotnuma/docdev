@@ -32,6 +32,13 @@
 
     Recursive : `astyle -nr --style=allman "test/*.h" "test/*.c"`
 
+* clang-format
+    
+    https://clang.llvm.org/docs/ClangFormatStyleOptions.html  
+    
+    dump config : `clang-format -style=llvm -dump-config > _clang-format`  
+    in current dir : `clang-format -i -style=WebKit *.c *.h`  
+    
 * Other
     
     [awesome-code-formatters](https://github.com/rishirdua/awesome-code-formatters)  
