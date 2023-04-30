@@ -6,23 +6,30 @@
 
 #### References
 
-* Awesome C
-    
-    https://github.com/oz123/awesome-c  
-
 * GCC cleanup attribute
     
     [attribute-cleanup](https://blog.fishsoup.net/2015/11/05/attributecleanup-mixed-declarations-and-code-and-goto/)  
     [g_autoptr](https://blogs.gnome.org/desrt/2015/01/30/g_autoptr/)  
     [echorand-cleanup](http://echorand.me/site/notes/articles/c_cleanup/cleanup_attribute_c.html)  
 
+* Feature test macros
+    
+    [feature_test_macros](https://manpages.ubuntu.com/manpages/xenial/en/man7/feature_test_macros.7.html)  
+    
+    `#define _GNU_SOURCE`
+
+* Reporting information using syslog
+    
+    https://stackoverflow.com/questions/18658429/  
+
 * Current directory in C
     
     https://stackoverflow.com/questions/298510/  
-
-* C Function to retrieve argv contents to string
     
-    https://stackoverflow.com/questions/66726401/  
+    ```
+    #include <unistd.h>
+    char *getcwd(char *buf, size_t size);
+    ```
 
 * Parse html using C
     
@@ -35,25 +42,17 @@
 
 * Clear the console
     
-    [https://stackoverflow.com/questions/228617/how-do-i-clear-th](https://stackoverflow.com/questions/228617/how-do-i-clear-the-console-in-both-windows-and-linux-using-c)  
-
-* Feature test macros
-    
-    https://manpages.ubuntu.com/manpages/xenial/en/man7/feature_test_macros.7.html  
+    https://stackoverflow.com/questions/228617/  
 
 * Polkit applications
     
     https://www.freedesktop.org/software/polkit/docs/0.105/polkit-apps.html  
 
-* Reporting information using syslog
-    
-    https://stackoverflow.com/questions/18658429/  
-
 
 
 #### Functions
 
-* string `starts_with`
+* string starts with
     
     https://stackoverflow.com/questions/4770985/  
 
@@ -61,34 +60,34 @@
     
     https://stackoverflow.com/questions/4785381/  
 
-* open vs fopen
-    
-    https://stackoverflow.com/questions/1658476/  
-    
 * stat, fstat, lstat
 
     http://manpages.ubuntu.com/manpages/trusty/fr/man2/stat.2.html  
 
-* fgets()
+* open vs fopen
+    
+    https://stackoverflow.com/questions/1658476/  
+    
+* fgets
     
     [https://www.tutorialspoint.com/c_standard_library/c_function](https://www.tutorialspoint.com/c_standard_library/c_function_fgets.htm)  
     https://koor.fr/C/cstdio/fgets.wp  
-
-* CPU getusage_c
-    
-    https://github.com/fho/code_snippets/blob/master/c/getusage.c  
 
 
 
 #### System
 
-* GKeyFile
+* CPU getusage_c
     
-    https://gist.github.com/zdxerr/709169  
+    https://github.com/fho/code_snippets/blob/master/c/getusage.c  
 
 * Audio playing detect
     
     https://stackoverflow.com/questions/22144203/  
+
+* GKeyFile
+    
+    https://gist.github.com/zdxerr/709169  
 
 
 
@@ -146,7 +145,7 @@
 
 * Redirect to buffer or file
     
-    https://stackoverflow.com/questions/2605130/redirecting-exec-output-to-a-buffer-or-file  
+    https://stackoverflow.com/questions/2605130/  
 
 
 
@@ -164,10 +163,10 @@
 
 * Memory usage of current process
     
-    [https://stackoverflow.com/questions/1558402/memory-usage-of-](https://stackoverflow.com/questions/1558402/memory-usage-of-current-process-in-c)
+    https://stackoverflow.com/questions/1558402/  
 
 * RAM usage of a process using its ID
     
-    [https://stackoverflow.com/questions/67224020/how-do-i-find-t](https://stackoverflow.com/questions/67224020/how-do-i-find-the-ram-usage-of-a-process-using-its-id)
+    https://stackoverflow.com/questions/67224020/  
 
 
