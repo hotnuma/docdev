@@ -43,7 +43,7 @@
 
 
 
-#### Tutorial
+#### Articles
 
 * GObject
     
@@ -52,11 +52,11 @@
     [gobject-memory](https://developer-old.gnome.org/gobject/stable/gobject-memory.html)  
     [gobject-new-unref](https://stackoverflow.com/questions/2848273/)  
     [gobject-floating-references](https://docs.gtk.org/gobject/floating-refs.html)  
+    [gobject-construction](https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introduction-to-gobject-construction/)  
+    [check-if-freed](https://stackoverflow.com/questions/24453266/)  
+    [object-unref](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
+    [object-unref](https://stackoverflow.com/questions/2848273/)  
 
-* GtkApplication
-    
-    https://developer-old.gnome.org/GtkApplication/  
-    
 * Toolbar
     
     [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  
@@ -78,5 +78,24 @@
 * GtkBox vs GtkGrid
     
     https://www.manpagez.com/html/gtk3/gtk3-3.24.31/ch30s02.php  
+
+* Alternative to deprecated gtk_alignment_new
+    
+    https://stackoverflow.com/questions/58746046/  
+
+
+
+#### Gtk custom widgets
+
+* Examples
+
+    https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-20.html  
+    [create-custom-widget](https://stackoverflow.com/questions/25824401/)  
+    https://wiki.gnome.org/HowDoI/CustomWidgets  
+
+* Cairo
+    
+    https://forums.raspberrypi.com/viewtopic.php?t=199626  
+    [create-object](https://stackoverflow.com/questions/57699050/)  
 
 
