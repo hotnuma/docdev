@@ -14,16 +14,6 @@
     
     https://tldp.org/LDP/abs/html/index.html  
 
-* Base directory
-    
-    https://stackoverflow.com/questions/59895/  
-    
-    ```
-    BASEDIR="$(dirname -- "$(readlink -f -- "$0";)")"
-    
-    BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-    ```
-
 
 
 #### Args
@@ -64,6 +54,32 @@
     if [[ $DEV == 1 ]]; then
         echo ok
     fi
+    ```
+
+
+
+#### Directories
+
+* Script directory
+    
+    https://stackoverflow.com/questions/59895/  
+    
+    ```
+    BASEDIR="$(dirname -- "$(readlink -f -- "$0";)")"
+    
+    BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+    ```
+
+* Parse sub directories
+
+    ```
+    #!/usr/bin/bash
+
+    for dir in $PWD/*; do
+        if [[ -d $dir ]]; then
+            echo $dir
+        fi
+    done
     ```
 
 
@@ -110,23 +126,7 @@
     https://stackoverflow.com/questions/418896/  
     
     ```
-    program [arguments...] 2>&1 | tee -a outfile
-    ```
-
-
-
-#### Directories
-
-* Parse sub directories
-
-    ```
-    #!/usr/bin/bash
-
-    for dir in $PWD/*; do
-        if [[ -d $dir ]]; then
-            echo $dir
-        fi
-    done
+    program [arguments...] 2>&1 | tee -a "$outfile"
     ```
 
 
