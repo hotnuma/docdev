@@ -13,6 +13,7 @@
     https://github.com/orgs/lxde/repositories  
     https://github.com/lxde/pcmanfm  
     https://github.com/lxde/libfm  
+    https://github.com/orgs/raspberrypi-ui/repositories  
     https://github.com/orgs/lxqt/repositories  
     https://github.com/IgnorantGuru?tab=repositories  
 

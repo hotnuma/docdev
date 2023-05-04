@@ -57,6 +57,10 @@
     [object-unref](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
     [object-unref](https://stackoverflow.com/questions/2848273/)  
 
+* GTK+ par l'exemple.
+    
+    [https://nicolasj.developpez.com/gtk/cours/?page=les-raccourc](https://nicolasj.developpez.com/gtk/cours/?page=les-raccourcis-clavier)  
+
 * Toolbar
     
     [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  
@@ -89,13 +93,26 @@
 
 * Examples
 
-    https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-20.html  
-    [create-custom-widget](https://stackoverflow.com/questions/25824401/)  
-    https://wiki.gnome.org/HowDoI/CustomWidgets  
-
-* Cairo
-    
-    https://forums.raspberrypi.com/viewtopic.php?t=199626  
+    [old-tutorial](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-20.html)  
+    [drawing-area](https://developer-old.gnome.org/gtk3/stable/GtkDrawingArea.html)  
+    [examples](https://wiki.gnome.org/HowDoI/CustomWidgets)  
+    [examples](http://www.peteronion.org.uk/GtkExamples/GladeTutorials.html)  
     [create-object](https://stackoverflow.com/questions/57699050/)  
+
+
+#### Other
+
+* Drop down menu to Toolbar Item
+    
+    [https://stackoverflow.com/questions/9132440/gtk-drop-down-me](https://stackoverflow.com/questions/9132440/gtk-drop-down-menu-to-toolbar-item)  
+
+* GTK3 and multithreading
+    
+    https://stackoverflow.com/questions/30607429/  
+
+* Redirect stdout in a text window
+    
+    [https://stackoverflow.com/questions/48478615/how-to-rediredt](https://stackoverflow.com/questions/48478615/how-to-rediredt-the-stdout-in-a-text-window-c-programming)  
+    [https://mail.gnome.org/archives/gtk-list/2006-February/msg00](https://mail.gnome.org/archives/gtk-list/2006-February/msg00040.html)  
 
 
