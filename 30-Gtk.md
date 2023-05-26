@@ -45,6 +45,30 @@
 
 #### Articles
 
+* Drag and Drop
+    
+    https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
+    https://wiki.gnome.org/HowDoI/DragAndDrop  
+    
+    
+    ```
+    setup drag source
+    gtk_drag_source_set with drag_targets
+    
+    "drag-begin"
+    "drag-data-get"
+    "drag-data-delete"
+    "drag-end",
+
+    setup drop site with 
+    gtk_drag_dest_set with drop_targets
+
+    "drag-leave"
+    "drag-motion"
+    "drag-drop"
+    "drag-data-received"
+    ```
+
 * GObject
     
     [gobject-tutorial](https://docs.gtk.org/gobject/tutorial.html)  
@@ -74,10 +98,6 @@
     [gtk3-treeview-tutorial](https://docs.gtk.org/gtk3/treeview-tutorial.html)  
     [zetcode-gtk2-treeview](https://zetcode.com/gui/gtk2/gtktreeview/)  
     [wikibooks-gtk-treeview](https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models)  
-    
-* DnD
-    
-    https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
     
 * GtkBox vs GtkGrid
     
