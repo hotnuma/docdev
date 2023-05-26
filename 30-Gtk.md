@@ -95,19 +95,21 @@
                 <br>
                 - hightlight the drop zone<br>
                 <br>
-                - can examine drag format and drag action with
-                <b>gtk_drag_dest_find_target()</b><br>
+                <div class="txgreen">- can examine drag format and drag action :<br>
                 <br>
-                <-- triggers <b>"drag-data-get</b>"<br>
+                call <b>gtk_drag_dest_find_target()</b><br>
                 <br>
+                <b><-- "drag-data-get</b>"</div><br>
                 - drop impossible :<br>
                 <br>
                 call <b>gtk_drag_status(context, 0, time)</b><br>
-                and return <b>false</b><br>
                 <br>
-                - drop possible :<br><br>
-                call <b>gtk_drag_status(context, action, time)</b>
-                and return <b>true</b><br>
+                return <b>false</b><br>
+                <br>
+                <div class="txgreen">- drop possible :<br><br>
+                call <b>gtk_drag_status(context, action, time)</b><br>
+                <br>
+                return <b>true</b></div><br>
                 <br>
             </td>
         </tr>
@@ -120,10 +122,11 @@
                 <br>
                 - prepare data depending on the target<br>
                 <br>
-                - send data to the selection object :<br>
-                <b>gtk_selection_data_set()</b><br>
+                <div class="txgreen">- send data to the selection object :<br>
                 <br>
-                --> triggers <b>"drag-data-received"</b><br>
+                call <b>gtk_selection_data_set()</b><br>
+                <br>
+                <b>--> "drag-data-received"</b></div><br>
                 <br>
             </td>
             
@@ -138,16 +141,22 @@
                 <br>
                 - drop rejected : return <b>false</b><br>
                 <br>
-                - drop accepted : <b>gtk_drag_get_data()</b><br>
+                <div class="txgreen">- drop accepted : <b>gtk_drag_get_data()</b><br>
                 <br>
-                <-- triggers <b>"drag-data-get"</b> then return <b>true</b><br>
+                <b><-- "drag-data-get"</b><br>
+                <br>
+                return <b>true</b></div><br>
                 <br>
             </td>
         </tr>
         
         <tr>
             <td>
-                <b>"drag-end"</b><br>
+                <b>"drag-failed"</b><br>
+                <br>
+                - end the DnD operation<br>
+                <br>
+                - free resources<br>
             </td>
             
             <td rowspan="3">
@@ -158,18 +167,39 @@
                 - get the data received :
                 <b>gtk_selection_data_get()</b><br>
                 <br>
+                <div class="txgreen">- data rejected :<br>
+                <br>
+                call <b>gtk_drag_data_finish(context, false, delete, time)</b><br>
+                <br>
+                <b><-- "drag-failed"</b></div><br>
+                <br>
+                <div class="txgreen">- data accepted :<br>
+                copy data<br>
+                free destination resources
+                call <b>gtk_drag_data_finish(context, true, delete, time)</b><br>
+                <br>
+                <b><-- "drag-data-delete"</b></div><br>
+                <br>
+                <b><-- "drag-end"</b></div><br>
+                <br>
             </td>
         </tr>
         
         <tr>
             <td>
                 <b>"drag-data-delete"</b><br>
+                <br>
+                - delete the moved data<br>
             </td>
         </tr>
         
         <tr>
             <td>
-                <b>"drag-failed"</b><br>
+                <b>"drag-end"</b><br>
+                <br>
+                - end the DnD operation<br>
+                <br>
+                - free resources<br>
             </td>
         </tr>
         
@@ -178,6 +208,8 @@
             </td>
             <td>
                 <b>"drag-leave"</b><br>
+                <br>
+                - un-highlight the drop zone<br>
             </td>
         </tr>
     </table>
