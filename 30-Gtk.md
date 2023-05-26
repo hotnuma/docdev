@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 **[ [Home](00-Home.html) | [Xfce](05-Xfce.html) | [DBus](10-DBus.html) | [Bash](15-Bash.html) | [Build](20-Build.html) | [Cpp](25-Cpp.html) | Gtk | [Git](35-Git.html) | [Other](99-Other.html) ]**
 
 ## Gtk
@@ -42,32 +44,146 @@
     `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
 
 
+#### Drag and Drop
 
-#### Articles
-
-* Drag and Drop
+* Reference
     
     https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
-    https://wiki.gnome.org/HowDoI/DragAndDrop  
+    [https://wiki.gnome.org/HowDoI/DragAndDrop](https://wiki.gnome.org/HowDoI/DragAndDrop?action=AttachFile&do=get&target=dnd-overview.png)  
     
-    
-    ```
-    setup drag source
-    gtk_drag_source_set with drag_targets
-    
-    "drag-begin"
-    "drag-data-get"
-    "drag-data-delete"
-    "drag-end",
+    <table>
+        
+        <tr>
+            <th>Drag</th>
+            
+            <th>Drop</th>
+        </tr>
 
-    setup drop site with 
-    gtk_drag_dest_set with drop_targets
+        <tr>
+            <td>
+                <b>Setup drag source</b><br>
+                <br>
+                - call <b>gtk_drag_source_set()</b>
+                with a <b>drag_targets</b> list<br>
+            </td>
+            
+            <td>
+                <b>Setup drop site</b><br>
+                <br>
+                - call <b>gtk_drag_dest_set()</b>
+                with a <b>drop_targets</b> list<br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <b>1 - "drag-begin"</b><br>
+                <br>
+                <i>Drag operation triggered</i><br>
+                <br>
+                - set the drag icon<br>
+                <br>
+                - setup of the current drag<br>
+                <br>
+            </td>
+            
+            <td>
+                <b>2 - "drag-motion"</b><br>
+                <br>
+                <i>Cursor moves over the drop target, the handler is called for each
+                cursor movement</i><br>
+                <br>
+                - hightlight the drop zone<br>
+                <br>
+                - can examine drag format and drag action with
+                <b>gtk_drag_dest_find_target()</b><br>
+                <br>
+                <-- triggers <b>"drag-data-get</b>"<br>
+                <br>
+                - drop impossible :<br>
+                <br>
+                call <b>gtk_drag_status(context, 0, time)</b><br>
+                and return <b>false</b><br>
+                <br>
+                - drop possible :<br><br>
+                call <b>gtk_drag_status(context, action, time)</b>
+                and return <b>true</b><br>
+                <br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <b>4 - "drag-data-get"</b><br>
+                <br>
+                <i>Data requested from a drop destination</i><br>
+                <br>
+                - prepare data depending on the target<br>
+                <br>
+                - send data to the selection object :<br>
+                <b>gtk_selection_data_set()</b><br>
+                <br>
+                --> triggers <b>"drag-data-received"</b><br>
+                <br>
+            </td>
+            
+            <td>
+                <b>3 - "drag-drop"</b><br>
+                <br>
+                <i>Button release over destination</i><br>
+                <br>
+                - check for a correct sub-drop zone<br>
+                <br>
+                - examine drag format and drag action<br>
+                <br>
+                - drop rejected : return <b>false</b><br>
+                <br>
+                - drop accepted : <b>gtk_drag_get_data()</b><br>
+                <br>
+                <-- triggers <b>"drag-data-get"</b> then return <b>true</b><br>
+                <br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <b>"drag-end"</b><br>
+            </td>
+            
+            <td rowspan="3">
+                <b>5 - "drag-data-received"</b><br>
+                <br>
+                <i>Button release over destination</i><br>
+                <br>
+                - get the data received :
+                <b>gtk_selection_data_get()</b><br>
+                <br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <b>"drag-data-delete"</b><br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <b>"drag-failed"</b><br>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+            </td>
+            <td>
+                <b>"drag-leave"</b><br>
+            </td>
+        </tr>
+    </table>
+    
 
-    "drag-leave"
-    "drag-motion"
-    "drag-drop"
-    "drag-data-received"
-    ```
+#### Articles
 
 * GObject
     
