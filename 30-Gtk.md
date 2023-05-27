@@ -219,7 +219,9 @@
                     </li><br>
                     
                     <li>
-                    free resources
+                    free resources<br>
+                    <br>
+                    <b>--> "drag-end"</b></div>
                     </li>
                 </ul> 
             </td>
@@ -238,22 +240,23 @@
                     <li>
                     <div class="txgreen">data rejected :<br>
                     <br>
-                    call <b>gtk_drag_data_finish(context, false, delete, time)</b><br>
+                    call <b>gtk_drag_data_finish(false)</b><br>
                     <br>
                     <b><-- "drag-failed"</b></div><br>
                     </li><br>
                     
                     <li>
                     <div class="txgreen">data accepted :<br>
-                    copy data<br>
-                    free destination resources
-                    call <b>gtk_drag_data_finish(context, true, delete, time)</b><br>
                     <br>
-                    <b><-- "drag-data-delete"</b></div>
-                    </li><br>
-                    
-                    <li>
-                    <b><-- "drag-end"</b>
+                    copy data<br>
+                    <br>
+                    free destination resources<br>
+                    <br>
+                    call <b>gtk_drag_data_finish(true, delete)</b><br>
+                    <br>
+                    <b><-- "drag-data-delete"</b><br>
+                    <br>
+                    <b><-- "drag-end"</b></div>
                     </li>
                 </ul> 
             </td>
@@ -265,7 +268,9 @@
                 <br>
                 <ul class="lidisc">
                     <li>
-                    delete the moved data
+                    delete the moved data<br>
+                    <br>
+                    <b>--> "drag-end"</b></div>
                     </li>
                 </ul> 
             </td>
