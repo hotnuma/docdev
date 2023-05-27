@@ -50,13 +50,14 @@
     
     https://wiki.gnome.org/Newcomers/OldDragNDropTutorial  
     [https://wiki.gnome.org/HowDoI/DragAndDrop](https://wiki.gnome.org/HowDoI/DragAndDrop?action=AttachFile&do=get&target=dnd-overview.png)  
+    https://www.freedesktop.org/wiki/Specifications/direct-save/  
     
     <table>
         
         <tr>
-            <th>Drag</th>
+            <th style="width:50%">Drag</th>
             
-            <th>Drop</th>
+            <th style="width:50%">Drop</th>
         </tr>
 
         <tr>
@@ -133,7 +134,7 @@
             <td>
                 <b>3 - "drag-drop"</b><br>
                 <br>
-                <i>Button release over destination</i><br>
+                <i>Button released over destination</i><br>
                 <br>
                 - check for a correct sub-drop zone<br>
                 <br>

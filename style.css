@@ -1,6 +1,6 @@
 
-table td, table td * {
-    vertical-align: top;
+body {
+  margin: 0px 30px 30px 30px;
 }
 
 table {
@@ -8,16 +8,22 @@ table {
     border-collapse: collapse; 
 } 
 
-table td {
-    border:1px dotted #000000;
-    padding: 10px;
-}
-
-table th {
+th {
+    vertical-align: top;
     border: 2px solid #69899F;
     padding: 5px;
     font-weight: bold;
 }
+
+td {
+    vertical-align: top;
+    border:1px dotted #000000;
+    padding: 15px;
+}
+
+code {
+      background-color: #dbdbdb;
+   }
 
 .txgreen {
       background-color: #88ff75;
