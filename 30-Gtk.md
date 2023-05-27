@@ -55,24 +55,53 @@
     <table>
         
         <tr>
-            <th style="width:50%">Drag</th>
+            <th style="width:50%">Source</th>
             
-            <th style="width:50%">Drop</th>
+            <th style="width:50%">Destination</th>
         </tr>
 
         <tr>
             <td>
-                <b>Setup drag source</b><br>
+                <b>Setup source</b><br>
                 <br>
-                - call <b>gtk_drag_source_set()</b>
-                with a <b>drag_targets</b> list<br>
+                <ul class="lidisc">
+                    <li>
+                    define a source target list using <b>GtkTargetEntry</b>
+                    or <b>GtkTargetList</b>
+                    </li><br>
+                    
+                    <li>
+                    call <b>gtk_drag_source_set()</b>
+                    </li><br>
+                    
+                    <li>
+                    connect handlers or use vfuncs or use default handlers<br>
+                    </li><br>
+                    
+                    <li>
+                    it's also possible to start a drag manually using
+                    <b>gtk_drag_begin_with_coordinates()</b>
+                    </li>
+                </ul> 
             </td>
             
             <td>
-                <b>Setup drop site</b><br>
+                <b>Setup destination</b><br>
                 <br>
-                - call <b>gtk_drag_dest_set()</b>
-                with a <b>drop_targets</b> list<br>
+                <ul class="lidisc">
+                    <li>
+                    define a destination target list using <b>GtkTargetEntry</b>
+                    or <b>GtkTargetList</b><br>
+                    </li><br>
+                    
+                    <li>
+                    call <b>gtk_drag_dest_set()</b><br>
+                    </li><br>
+                    
+                    <li>
+                    connect handlers or use vfuncs or use default handlers<br>
+                    </li>
+                </ul> 
             </td>
         </tr>
         
@@ -82,10 +111,15 @@
                 <br>
                 <i>Drag operation triggered</i><br>
                 <br>
-                - set the drag icon<br>
-                <br>
-                - setup of the current drag<br>
-                <br>
+                <ul class="lidisc">
+                    <li>
+                    set the drag icon<br>
+                    </li><br>
+                    
+                    <li>
+                    setup of the current drag<br>
+                    </li>
+                </ul> 
             </td>
             
             <td>
@@ -94,24 +128,34 @@
                 <i>Cursor moves over the drop target, the handler is called for each
                 cursor movement</i><br>
                 <br>
-                - hightlight the drop zone<br>
-                <br>
-                <div class="txgreen">- can examine drag format and drag action :<br>
-                <br>
-                call <b>gtk_drag_dest_find_target()</b><br>
-                <br>
-                <b><-- "drag-data-get</b>"</div><br>
-                - drop impossible :<br>
-                <br>
-                call <b>gtk_drag_status(context, 0, time)</b><br>
-                <br>
-                return <b>false</b><br>
-                <br>
-                <div class="txgreen">- drop possible :<br><br>
-                call <b>gtk_drag_status(context, action, time)</b><br>
-                <br>
-                return <b>true</b></div><br>
-                <br>
+                <ul class="lidisc">
+                    <li>
+                    hightlight the drop zone
+                    </li><br>
+                    
+                    <li>
+                    <div class="txgreen">can examine drag format and drag action :<br>
+                    <br>
+                    call <b>gtk_drag_dest_find_target()</b><br>
+                    <br>
+                    <b><-- "drag-data-get</b>"</div>
+                    </li><br>
+                    
+                    <li>
+                    drop impossible :<br>
+                    <br>
+                    call <b>gtk_drag_status(context, 0, time)</b><br>
+                    <br>
+                    return <b>false</b>
+                    </li><br>
+                    
+                    <li>
+                    <div class="txgreen">drop possible :<br><br>
+                    call <b>gtk_drag_status(context, action, time)</b><br>
+                    <br>
+                    return <b>true</b></div>
+                    </li>
+                </ul> 
             </td>
         </tr>
         
@@ -121,14 +165,19 @@
                 <br>
                 <i>Data requested from a drop destination</i><br>
                 <br>
-                - prepare data depending on the target<br>
-                <br>
-                <div class="txgreen">- send data to the selection object :<br>
-                <br>
-                call <b>gtk_selection_data_set()</b><br>
-                <br>
-                <b>--> "drag-data-received"</b></div><br>
-                <br>
+                <ul class="lidisc">
+                    <li>
+                    prepare data depending on the target<br>
+                    </li><br>
+                    
+                    <li>
+                    <div class="txgreen">send data to the selection object :<br>
+                    <br>
+                    call <b>gtk_selection_data_set()</b><br>
+                    <br>
+                    <b>--> "drag-data-received"</b></div><br>
+                    </li>
+                </ul> 
             </td>
             
             <td>
@@ -136,18 +185,27 @@
                 <br>
                 <i>Button released over destination</i><br>
                 <br>
-                - check for a correct sub-drop zone<br>
-                <br>
-                - examine drag format and drag action<br>
-                <br>
-                - drop rejected : return <b>false</b><br>
-                <br>
-                <div class="txgreen">- drop accepted : <b>gtk_drag_get_data()</b><br>
-                <br>
-                <b><-- "drag-data-get"</b><br>
-                <br>
-                return <b>true</b></div><br>
-                <br>
+                <ul class="lidisc">
+                    <li>
+                    check for a correct sub-drop zone
+                    </li><br>
+                    
+                    <li>
+                    examine drag format and drag action
+                    </li><br>
+                    
+                    <li>
+                    drop rejected : return <b>false</b>
+                    </li><br>
+                    
+                    <li>
+                    <div class="txgreen">- drop accepted : <b>gtk_drag_get_data()</b><br>
+                    <br>
+                    <b><-- "drag-data-get"</b><br>
+                    <br>
+                    return <b>true</b></div>
+                    </li>
+                </ul> 
             </td>
         </tr>
         
@@ -155,9 +213,15 @@
             <td>
                 <b>"drag-failed"</b><br>
                 <br>
-                - end the DnD operation<br>
-                <br>
-                - free resources<br>
+                <ul class="lidisc">
+                    <li>
+                    end the DnD operation
+                    </li><br>
+                    
+                    <li>
+                    free resources
+                    </li>
+                </ul> 
             </td>
             
             <td rowspan="3">
@@ -165,24 +229,33 @@
                 <br>
                 <i>Button release over destination</i><br>
                 <br>
-                - get the data received :
-                <b>gtk_selection_data_get()</b><br>
-                <br>
-                <div class="txgreen">- data rejected :<br>
-                <br>
-                call <b>gtk_drag_data_finish(context, false, delete, time)</b><br>
-                <br>
-                <b><-- "drag-failed"</b></div><br>
-                <br>
-                <div class="txgreen">- data accepted :<br>
-                copy data<br>
-                free destination resources
-                call <b>gtk_drag_data_finish(context, true, delete, time)</b><br>
-                <br>
-                <b><-- "drag-data-delete"</b></div><br>
-                <br>
-                <b><-- "drag-end"</b></div><br>
-                <br>
+                <ul class="lidisc">
+                    <li>
+                    get the data received :
+                    <b>gtk_selection_data_get()</b><br>
+                    </li><br>
+                    
+                    <li>
+                    <div class="txgreen">data rejected :<br>
+                    <br>
+                    call <b>gtk_drag_data_finish(context, false, delete, time)</b><br>
+                    <br>
+                    <b><-- "drag-failed"</b></div><br>
+                    </li><br>
+                    
+                    <li>
+                    <div class="txgreen">data accepted :<br>
+                    copy data<br>
+                    free destination resources
+                    call <b>gtk_drag_data_finish(context, true, delete, time)</b><br>
+                    <br>
+                    <b><-- "drag-data-delete"</b></div>
+                    </li><br>
+                    
+                    <li>
+                    <b><-- "drag-end"</b>
+                    </li>
+                </ul> 
             </td>
         </tr>
         
@@ -190,7 +263,11 @@
             <td>
                 <b>"drag-data-delete"</b><br>
                 <br>
-                - delete the moved data<br>
+                <ul class="lidisc">
+                    <li>
+                    delete the moved data
+                    </li>
+                </ul> 
             </td>
         </tr>
         
@@ -198,9 +275,15 @@
             <td>
                 <b>"drag-end"</b><br>
                 <br>
-                - end the DnD operation<br>
-                <br>
-                - free resources<br>
+                <ul class="lidisc">
+                    <li>
+                    end the DnD operation
+                    </li><br>
+                    
+                    <li>
+                    free resources
+                    </li>
+                </ul> 
             </td>
         </tr>
         
@@ -210,7 +293,11 @@
             <td>
                 <b>"drag-leave"</b><br>
                 <br>
-                - un-highlight the drop zone<br>
+                <ul class="lidisc">
+                    <li>
+                    un-highlight the drop zone
+                    </li>
+                </ul> 
             </td>
         </tr>
     </table>
