@@ -67,7 +67,6 @@
                 <ul class="lidisc">
                     <li>
                     define a source target list using <b>GtkTargetEntry</b>
-                    or <b>GtkTargetList</b>
                     </li><br>
                     
                     <li>
@@ -80,6 +79,7 @@
                     
                     <li>
                     it's also possible to start a drag manually using
+                    a <b>GtkTargetList</b> and calling
                     <b>gtk_drag_begin_with_coordinates()</b>
                     </li>
                 </ul> 
@@ -91,7 +91,6 @@
                 <ul class="lidisc">
                     <li>
                     define a destination target list using <b>GtkTargetEntry</b>
-                    or <b>GtkTargetList</b><br>
                     </li><br>
                     
                     <li>
