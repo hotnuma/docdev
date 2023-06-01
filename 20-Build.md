@@ -13,6 +13,22 @@
     https://wiki.debian.org/BuildingTutorial  
 
 
+#### Autotools
+    
+* Install release version
+    
+    https://stackoverflow.com/questions/4553735/  
+    
+    `./autogen.sh --enable-debug=no`
+    
+    or
+    
+    `./configure --enable-debug=no`
+    
+    and
+    
+    `sudo make install-strip`
+
 
 #### Meson
 
@@ -38,7 +54,6 @@
     [installing-gsettings-schema](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)  
 
 
-
 #### Dependencies
 
 * Find build dependencies
@@ -55,15 +70,11 @@
     
 * pkg-config
 
-    ```
-    pkg-config --libs --cflags gtk+-3.0
-    ```
+    `pkg-config --libs --cflags gtk+-3.0`
     
     Version
     
-    ```
-    pkg-config --modversion glib-2.0
-    ```
+    `pkg-config --modversion glib-2.0`
 
 * Find program dependencies
     
@@ -71,8 +82,6 @@
 
 * fix library error
 
-    ```
-    sudo /sbin/ldconfig -v
-    ```
+    `sudo /sbin/ldconfig -v`
 
 

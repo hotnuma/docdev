@@ -14,6 +14,14 @@
     [freedesktop-icon-naming](https://specifications.freedesktop.org/icon-naming-spec/latest/ar01s04.html)  
 
 
+#### Patches
+
+* patch
+    
+    try : `patch --dry-run -p 1 -i '../dir/my_file.patch'`
+    
+    do  : `patch -p 1 -i '../dir/my_file.patch'`
+
 
 #### Markdown
 

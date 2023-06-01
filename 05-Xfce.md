@@ -13,12 +13,13 @@
     [xfce-forum](https://forum.xfce.org/search.php?action=show_recent)  
     [xfce-reddit](https://www.reddit.com/r/xfce/)  
     [xfce-gitlab](https://gitlab.xfce.org/xfce)  
+    [xfce-gitlab-apps](https://gitlab.xfce.org/apps)  
     [xfce-developer](https://developer.xfce.org/)  
 
 
 #### Libraries
     
-    xfce4-dev-tools libxmu-dev libprocps-dev
+    xfce4-dev-tools libxmu-dev libwnck-3-dev
 
 
 #### Sessions
