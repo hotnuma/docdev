@@ -16,6 +16,10 @@
     [xfce-developer](https://developer.xfce.org/)  
 
 
+#### Libraries
+    
+    xfce4-dev-tools libxmu-dev libprocps-dev
+
 
 #### Sessions
 
@@ -59,7 +63,6 @@
 * Bash Startup Files
     
     [https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/prof](https://www.linuxfromscratch.org/blfs/view/11.0/postlfs/profile.html)  
-
 
 
 #### Configuration
@@ -128,7 +131,6 @@
     https://unix.stackexchange.com/questions/426977/  
 
 
-
 #### Applications
 
 * Launchers
@@ -160,7 +162,6 @@
 * XDG MIME Applications
     
     https://wiki.archlinux.org/title/XDG_MIME_Applications
-
 
 
 #### Themes
