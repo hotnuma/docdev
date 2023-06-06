@@ -78,7 +78,7 @@
     | libmount-dev            | mount                   |
     | libnotify-dev           | libnotify               |
     | libpcre3-dev (pcre)     | libpcre                 |
-    | libpcre2-dev (pcre2)    |                         |
+    | libpcre2-dev (pcre2)    | libpcre2-8              |
     | libpng-dev              | libpng                  |
     | libpolkit-gobject-1-dev | polkit-gobject-1        |
     | libprocps-dev           | libprocps               |
@@ -86,11 +86,13 @@
     | libthunarx-3-dev        | thunarx-3               |
     | libtinyxml-dev          | tinyxml                 |
     | libusb-dev              | libusb                  |
+    | libwnck-3-dev           | libwnck-3.0             |
     | libx11-dev              | x11                     |
     | libxfce4ui-2-dev        | libxfce4ui-2            |
     | libxfce4util-dev        | libxfce4util-1.0        |
     | libxfconf-0-dev         | libxfconf-0             |
     | libxml2-dev             | libxml-2.0              |
+    | libxmu-dev              | xmu                     |
     | libz3-dev               | z3                      |
     | libzen-dev              | libzen                  |
 

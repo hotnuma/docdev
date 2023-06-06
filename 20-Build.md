@@ -44,14 +44,14 @@
     
     [porting-from-autotools](https://mesonbuild.com/Porting-from-autotools.html)  
     [convert-autotools](https://nibblestew.blogspot.com/2016/09/how-to-convert-autotools-project-to.html)  
-    [mesonbuild-ac_converter.py](https://github.com/mesonbuild/meson/blob/master/tools/ac_converter.py)  
-    [mesonbuild-cmake2meson.py](https://github.com/mesonbuild/meson/blob/master/tools/cmake2meson.py)  
+    [meson-tools](https://github.com/mesonbuild/meson/tree/master/tools)  
 
 * Examples
     
-    [krishenriksen-pibright](https://github.com/krishenriksen/pibright/blob/master/meson.build)  
+    [viewnior](https://github.com/hellosiyan/Viewnior)  
     [desktop-files-creator](https://github.com/alexkdeveloper/desktop-files-creator)  
-    [installing-gsettings-schema](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)  
+    [krishenriksen-pibright](https://github.com/krishenriksen/pibright/blob/master/meson.build)  
+    [gsettings-schema](https://discourse.gnome.org/t/installing-gsettings-schema-with-meson/13373)  
 
 
 #### Dependencies
