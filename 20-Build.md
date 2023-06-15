@@ -61,11 +61,11 @@
     https://askubuntu.com/questions/172367/  
     
     ```
-    sudo apt-get build-dep --dry-run thunar
+    apt build-dep --dry-run thunar
     
     apt-cache show thunar
 
-    apt search procps
+    apt search thunar
     ```
     
 * pkg-config
