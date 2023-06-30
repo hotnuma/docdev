@@ -101,11 +101,20 @@
     /etc/xdg/xfce4/
     ```
 
-* xfce4-session settings
+* xfce4-session
 
     ```
     /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
     /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+    ```
+
+* xsettings
+    
+    http://www.freedesktop.org/wiki/Specifications/XSettingsRegistry  
+
+    ```
+    /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
+    /etc/xdg/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
     ```
 
 * Xdg menu
