@@ -68,6 +68,11 @@
 
 #### Configuration
 
+* xfconf-query
+    
+    https://docs.xfce.org/xfce/xfconf/xfconf-query  
+    [http://manpages.ubuntu.com/manpages/...](http://manpages.ubuntu.com/manpages/bionic/man1/xfconf-query.1.html)  
+
 * Profile
 
     ```
@@ -212,11 +217,6 @@
     ```
     xfce4-terminal -e 'bash -c "extract.sh %f; bash"'
     ```
-
-* xfconf-query
-    
-    https://docs.xfce.org/xfce/xfconf/xfconf-query  
-    [http://manpages.ubuntu.com/manpages/...](http://manpages.ubuntu.com/manpages/bionic/man1/xfconf-query.1.html)  
 
 * Xfce Classic Fork
     
