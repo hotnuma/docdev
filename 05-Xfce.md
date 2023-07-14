@@ -10,8 +10,10 @@
 
 * Links
     
+    https://wiki.archlinux.org/title/xfce  
+    https://wiki.xfce.org/fr/howto/customize-menu  
+    
     [xfce-forum](https://forum.xfce.org/search.php?action=show_recent)  
-    [xfce-reddit](https://www.reddit.com/r/xfce/)  
     [xfce-gitlab](https://gitlab.xfce.org/xfce)  
     [xfce-gitlab-apps](https://gitlab.xfce.org/apps)  
     [xfce-developer](https://developer.xfce.org/)  
