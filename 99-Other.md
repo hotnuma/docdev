@@ -10,15 +10,11 @@
 
 * Repositories
     
-    https://github.com/geany/geany/commits/master  
-    https://github.com/universal-ctags/ctags  
-    https://github.com/orgs/lxde/repositories  
-    https://github.com/lxde/pcmanfm  
-    https://github.com/lxde/libfm  
-    https://github.com/orgs/raspberrypi-ui/repositories  
-    https://github.com/orgs/lxqt/repositories  
-    https://github.com/IgnorantGuru?tab=repositories  
-
+    https://docs.xfce.org/xfce/building  
+    [xfce-forum](https://forum.xfce.org/search.php?action=show_recent)  
+    [xfce-gitlab](https://gitlab.xfce.org/xfce)  
+    [xfce-gitlab-apps](https://gitlab.xfce.org/apps)  
+    [xfce-developer](https://developer.xfce.org/)  
 
 
 #### Articles
@@ -37,6 +33,19 @@
 
 
 <!--
+
+#### Sources
+
+* Repositories
+    
+    https://github.com/geany/geany/commits/master  
+    https://github.com/universal-ctags/ctags  
+    https://github.com/orgs/lxde/repositories  
+    https://github.com/lxde/pcmanfm  
+    https://github.com/lxde/libfm  
+    https://github.com/orgs/raspberrypi-ui/repositories  
+    https://github.com/orgs/lxqt/repositories  
+    https://github.com/IgnorantGuru?tab=repositories  
 
     apt build-dep --dry-run thunar
 

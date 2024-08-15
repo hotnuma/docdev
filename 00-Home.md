@@ -33,7 +33,6 @@
     [writing-on-github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
 
 
-
 #### Code Formatting
 
 * astyle
@@ -57,43 +56,42 @@
     [gnu-indent](https://www.gnu.org/software/indent/)  
 
 
-
 #### Libraries
 
 * Packages Names
 
-    | Package Name            | PkgConfig               |
+    | PkgConfig               | Package Name            |
     | :---------------------- | :---------------------- |
-    | gettext                 |                         |
-    | libdbus-1-dev           | dbus-1                  |
-    | libexiv2-dev            | exiv2                   |
-    | libexo-2-dev            | exo-2                   |
-    | libexpat1-dev           | expat                   |
-    | libgdk-pixbuf-2.0-dev   | gdk-pixbuf-2.0          |
-    | libglib2.0-dev          | glib-2.0                |
-    | libgtk2.0-dev           |                         |
-    | libgtk-3-dev            | gtk+-3.0                |
-    | libgudev-1.0-dev        | gudev-1.0               |
-    | libgumbo-dev            | gumbo                   |
-    | libmount-dev            | mount                   |
-    | libnotify-dev           | libnotify               |
-    | libpcre3-dev (pcre)     | libpcre                 |
-    | libpcre2-dev (pcre2)    | libpcre2-8              |
-    | libpng-dev              | libpng                  |
-    | libpolkit-gobject-1-dev | polkit-gobject-1        |
-    | libprocps-dev           | libprocps               |
-    | libsm-dev               | sm                      |
-    | libthunarx-3-dev        | thunarx-3               |
-    | libtinyxml-dev          | tinyxml                 |
-    | libusb-dev              | libusb                  |
-    | libwnck-3-dev           | libwnck-3.0             |
-    | libx11-dev              | x11                     |
-    | libxfce4ui-2-dev        | libxfce4ui-2            |
-    | libxfce4util-dev        | libxfce4util-1.0        |
-    | libxfconf-0-dev         | libxfconf-0             |
-    | libxml2-dev             | libxml-2.0              |
-    | libxmu-dev              | xmu                     |
-    | libz3-dev               | z3                      |
-    | libzen-dev              | libzen                  |
+    |                         | gettext                 |
+    | dbus-1                  | libdbus-1-dev           |
+    | exiv2                   | libexiv2-dev            |
+    | exo-2                   | libexo-2-dev            |
+    | expat                   | libexpat1-dev           |
+    | gdk-pixbuf-2.0          | libgdk-pixbuf-2.0-dev   |
+    | glib-2.0                | libglib2.0-dev          |
+    | gtk+-2.0                | libgtk2.0-dev           |
+    | gtk+-3.0                | libgtk-3-dev            |
+    | gudev-1.0               | libgudev-1.0-dev        |
+    | gumbo                   | libgumbo-dev            |
+    | mount                   | libmount-dev            |
+    | libnotify               | libnotify-dev           |
+    | libpcre                 | libpcre3-dev (pcre)     |
+    | libpcre2-8              | libpcre2-dev (pcre2)    |
+    | libpng                  | libpng-dev              |
+    | polkit-gobject-1        | libpolkit-gobject-1-dev |
+    | libprocps               | libprocps-dev           |
+    | sm                      | libsm-dev               |
+    | thunarx-3               | libthunarx-3-dev        |
+    | tinyxml                 | libtinyxml-dev          |
+    | libusb                  | libusb-dev              |
+    | libwnck-3.0             | libwnck-3-dev           |
+    | x11                     | libx11-dev              |
+    | libxfce4ui-2            | libxfce4ui-2-dev        |
+    | libxfce4util-1.0        | libxfce4util-dev        |
+    | libxfconf-0             | libxfconf-0-dev         |
+    | libxml-2.0              | libxml2-dev             |
+    | xmu                     | libxmu-dev              |
+    | z3                      | libz3-dev               |
+    | libzen                  | libzen-dev              |
 
 
