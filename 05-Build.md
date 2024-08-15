@@ -60,7 +60,9 @@
 
     https://askubuntu.com/questions/172367/  
     
-    Read package informations : `apt-cache show thunar`
+    Build depends : `apt build-dep --dry-run thunar`
+    
+    Package informations : `apt-cache show thunar`
     
     Search package : `apt search thunar`
     

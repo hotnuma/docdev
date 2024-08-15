@@ -47,7 +47,6 @@
     https://github.com/orgs/lxqt/repositories  
     https://github.com/IgnorantGuru?tab=repositories  
 
-    apt build-dep --dry-run thunar
 
 -->
 
