@@ -60,21 +60,15 @@
 
     https://askubuntu.com/questions/172367/  
     
-    ```
-    apt build-dep --dry-run thunar
+    Read package informations : `apt-cache show thunar`
     
-    apt-cache show thunar
-
-    apt search thunar
-    ```
+    Search package : `apt search thunar`
     
 * pkg-config
 
-    `pkg-config --libs --cflags gtk+-3.0`
+    `pkg-config --cflags --libs gtk+-3.0`
     
-    Version
-    
-    `pkg-config --modversion glib-2.0`
+    Version : `pkg-config --modversion glib-2.0`
 
 * Find program dependencies
     

@@ -35,3 +35,11 @@
     [data_compression](https://stackoverflow.com/questions/68207864/why-is-pythons-requests-10x-faster-than-cs-libcurl)  
 
 
+
+<!--
+
+    apt build-dep --dry-run thunar
+
+-->
+
+
