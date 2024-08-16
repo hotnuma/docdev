@@ -6,11 +6,9 @@
 
 ---
 
-#### Reference
+#### References
 
-* Basics
-    
-    https://wiki.debian.org/BuildingTutorial  
+https://wiki.debian.org/BuildingTutorial  
 
 
 #### Autotools
@@ -19,13 +17,15 @@
     
     https://stackoverflow.com/questions/4553735/  
     
-    `./autogen.sh --enable-debug=no`
+    `./autogen.sh --prefix=/usr/local --enable-debug=no`
     
     or
     
-    `./configure --enable-debug=no`
+    `./configure --prefix=/usr/local --enable-debug=no`
     
     and
+    
+    `make -j 4`
     
     `sudo make install-strip`
 
@@ -60,11 +60,11 @@
 
     https://askubuntu.com/questions/172367/  
     
-    Build depends : `apt build-dep --dry-run thunar`
+    Sources depends : `apt-cache showsrc xfwm4 | grep '^Build-Depends'`
     
-    Package informations : `apt-cache show thunar`
+    Build depends : `apt build-dep --dry-run xfwm4`
     
-    Search package : `apt search thunar`
+    Search package : `apt search xfwm4`
     
 * pkg-config
 
@@ -79,5 +79,38 @@
 * fix library error
 
     `sudo /sbin/ldconfig -v`
+
+
+#### Common Dev Packages
+
+* Packages Names
+
+    | PkgConfig               | Package Name            |
+    | :---------------------- | :---------------------- |
+    |                         | gettext                 |
+    | dbus-1                  | libdbus-1-dev           |
+    | exo-2                   | libexo-2-dev            |
+    | expat                   | libexpat1-dev           |
+    | gdk-pixbuf-2.0          | libgdk-pixbuf-2.0-dev   |
+    | glib-2.0                | libglib2.0-dev          |
+    | gtk+-2.0                | libgtk2.0-dev           |
+    | gtk+-3.0                | libgtk-3-dev            |
+    | gumbo                   | libgumbo-dev            |
+    | mount                   | libmount-dev            |
+    | libnotify               | libnotify-dev           |
+    | libpcre                 | libpcre3-dev (pcre)     |
+    | libpcre2-8              | libpcre2-dev (pcre2)    |
+    | libpng                  | libpng-dev              |
+    | polkit-gobject-1        | libpolkit-gobject-1-dev |
+    | tinyxml                 | libtinyxml-dev          |
+    | libusb                  | libusb-dev              |
+    | libwnck-3.0             | libwnck-3-dev           |
+    | x11                     | libx11-dev              |
+    | libxfce4ui-2            | libxfce4ui-2-dev        |
+    | libxfce4util-1.0        | libxfce4util-dev        |
+    | libxfconf-0             | libxfconf-0-dev         |
+    | libxml-2.0              | libxml2-dev             |
+    | z3                      | libz3-dev               |
+    | libzen                  | libzen-dev              |
 
 
