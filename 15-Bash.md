@@ -17,7 +17,6 @@
     https://tldp.org/LDP/abs/html/index.html  
 
 
-
 #### Args
 
 * Check number of arguments
@@ -59,18 +58,15 @@
     ```
 
 
-
 #### Directories
 
 * Script directory
     
     https://stackoverflow.com/questions/59895/  
     
-    ```
-    BASEDIR="$(dirname -- "$(readlink -f -- "$0";)")"
+    `BASEDIR="$(dirname -- "$(readlink -f -- "$0";)")"`
     
-    BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-    ```
+    `BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"`
 
 * Parse sub directories
 
@@ -83,7 +79,6 @@
         fi
     done
     ```
-
 
 
 #### Files
@@ -132,7 +127,6 @@
     ```
 
 
-
 #### Misc
 
 * Write functions
@@ -156,5 +150,4 @@
         fi
     fi
     ```
-
 
