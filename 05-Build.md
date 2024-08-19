@@ -35,6 +35,7 @@ https://wiki.debian.org/BuildingTutorial
 * Basics
     
     https://mesonbuild.com/IndepthTutorial.html  
+    https://mesonbuild.com/Fs-module.html  
 
 * Include a pre-compiled library
     
