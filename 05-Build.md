@@ -41,6 +41,10 @@ https://wiki.debian.org/BuildingTutorial
     
     https://stackoverflow.com/questions/67925406/  
 
+* Resolve home directory
+    
+    https://github.com/mesonbuild/meson/issues/6318  
+
 * Porting projects
     
     [porting-from-autotools](https://mesonbuild.com/Porting-from-autotools.html)  
