@@ -30,10 +30,6 @@
     [get_request](https://gist.github.com/whoshuu/2dc858b8730079602044)  
     [data_compression](https://stackoverflow.com/questions/68207864/why-is-pythons-requests-10x-faster-than-cs-libcurl)  
 
-* QtCreator printf
-
-    https://chowdera.com/2020/12/20201208210320326z.html  
-
 
 <!--
 
