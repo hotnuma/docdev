@@ -43,7 +43,13 @@ https://wiki.debian.org/BuildingTutorial
 
 * Resolve home directory
     
-    https://github.com/mesonbuild/meson/issues/6318  
+    [https://github.com/mesonbuild/meson/issues/6318](https://github.com/mesonbuild/meson/issues/6318#issuecomment-563965061)  
+    
+    ```
+    fs = import('fs')
+    config_dir = fs.expanduser('~/.config')
+    install_subdir('assets', install_dir: config_dir)
+    ```
 
 * Porting projects
     
