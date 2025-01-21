@@ -100,37 +100,35 @@ https://wiki.debian.org/BuildingTutorial
 
     `sudo /sbin/ldconfig -v`
 
+* Common Dev Packages
 
-#### Common Dev Packages
-
-* Packages Names
-
-    | PkgConfig               | Package Name            |
+    | Package Name            | PkgConfig               |
     | :---------------------- | :---------------------- |
-    |                         | gettext                 |
-    | dbus-1                  | libdbus-1-dev           |
-    | exo-2                   | libexo-2-dev            |
-    | expat                   | libexpat1-dev           |
-    | gdk-pixbuf-2.0          | libgdk-pixbuf-2.0-dev   |
-    | glib-2.0                | libglib2.0-dev          |
-    | gtk+-2.0                | libgtk2.0-dev           |
-    | gtk+-3.0                | libgtk-3-dev            |
-    | gumbo                   | libgumbo-dev            |
-    | mount                   | libmount-dev            |
-    | libnotify               | libnotify-dev           |
-    | libpcre                 | libpcre3-dev (pcre)     |
-    | libpcre2-8              | libpcre2-dev (pcre2)    |
-    | libpng                  | libpng-dev              |
-    | polkit-gobject-1        | libpolkit-gobject-1-dev |
-    | tinyxml                 | libtinyxml-dev          |
-    | libusb                  | libusb-dev              |
-    | libwnck-3.0             | libwnck-3-dev           |
-    | x11                     | libx11-dev              |
-    | libxfce4ui-2            | libxfce4ui-2-dev        |
-    | libxfce4util-1.0        | libxfce4util-dev        |
-    | libxfconf-0             | libxfconf-0-dev         |
-    | libxml-2.0              | libxml2-dev             |
-    | z3                      | libz3-dev               |
-    | libzen                  | libzen-dev              |
+    | gettext                 |                         |
+    | libdbus-1-dev           | dbus-1                  |
+    | libexo-2-dev            | exo-2                   |
+    | libexpat1-dev           | expat                   |
+    | libgdk-pixbuf-2.0-dev   | gdk-pixbuf-2.0          |
+    | libglib2.0-dev          | glib-2.0                |
+    | libgtk2.0-dev           | gtk+-2.0                |
+    | libgtk-3-dev            | gtk+-3.0                |
+    | libgumbo-dev            | gumbo                   |
+    | libmount-dev            | mount                   |
+    | libnotify-dev           | libnotify               |
+    | libpcre3-dev (pcre)     | libpcre                 |
+    | libpcre2-dev (pcre2)    | libpcre2-8              |
+    | libpng-dev              | libpng                  |
+    | libpolkit-gobject-1-dev | polkit-gobject-1        |
+    | libtinyxml-dev          | tinyxml                 |
+    | libusb-dev              | libusb                  |
+    | libwnck-3-dev           | libwnck-3.0             |
+    | libx11-dev              | x11                     |
+    | libxfce4ui-2-dev        | libxfce4ui-2            |
+    | libxfce4util-dev        | libxfce4util-1.0        |
+    | libxfconf-0-dev         | libxfconf-0             |
+    | libxml2-dev             | libxml-2.0              |
+    | libz3-dev               | z3                      |
+    | libzen-dev              | libzen                  |
 
+<br/>
 
