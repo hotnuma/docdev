@@ -11,25 +11,22 @@
 * Docs
 
     <form action="https://google.com/search" method="get">
-        <input type="hidden" name="sitesearch" value="developer-old.gnome.org" />
+        <input type="hidden" name="sitesearch" value="www.manpagez.com" />
         <input type="text" placeholder="Search Gtk..." name="q" />
         <button>Search</button>
     </form>
     
-    [developer-old-gtk-3.24](https://developer-old.gnome.org/gtk3/3.24/)  
-    [developer-old-gobject](https://developer-old.gnome.org/gobject/stable/index.html)  
-    [manpagez-glib-2.56](https://www.manpagez.com/html/glib/glib-2.56.0/index.php)  
-    [manpagez-gio-2.56](https://www.manpagez.com/html/gio/gio-2.56.0/index.php)  
-    [icon-naming](https://specifications.freedesktop.org/icon-naming-spec/latest/ar01s04.html)  
+    https://www.manpagez.com/html/glib/glib-2.56.0/index.php)  
+    https://www.manpagez.com/html/gio/gio-2.56.0/index.php)  
+    [https://specifications.freedesktop.org/icon-naming-spec...](https://specifications.freedesktop.org/icon-naming-spec/latest/ar01s04.html)  
     
 * Tutorial
     
-    [zetcode-gtk2](https://zetcode.com/gui/gtk2/)  
-    [gtk3-tutorial](https://github.com/RainMark/gtk3-tutorial/tree/master/_examples)  
-    [python-gtk-3-tutorial](https://python-gtk-3-tutorial.readthedocs.io/en/latest/gallery.html)  
-    [gtk-tutorial](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
-    [gtk4-tutorial](https://toshiocp.github.io/Gtk4-tutorial/)  
-    [gtk-gettext](https://developer-old.gnome.org/gtk4/stable/gtk-question-index.html)  
+    https://zetcode.com/gui/gtk2/  
+    [https://github.com/RainMark/gtk3-tutorial...](https://github.com/RainMark/gtk3-tutorial/tree/master/_examples)  
+    [https://python-gtk-3-tutorial](https://python-gtk-3-tutorial.readthedocs.io/en/latest/gallery.html)  
+    [https://www.cc.gatech.edu/data_files/public/doc/gtk...](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut.html)  
+    [https://toshiocp.github.io/Gtk4-tutorial/](https://toshiocp.github.io/Gtk4-tutorial/)  
 
 * Build simple program
     
@@ -310,10 +307,8 @@
 * GObject
     
     [gobject-tutorial](https://docs.gtk.org/gobject/tutorial.html)  
-    [ginitiallyunowned](https://developer-old.gnome.org/gobject/stable/gobject-The-Base-Object-Type.html#GInitiallyUnowned)  
-    [gobject-memory](https://developer-old.gnome.org/gobject/stable/gobject-memory.html)  
     [gobject-new-unref](https://stackoverflow.com/questions/2848273/)  
-    [gobject-floating-references](https://docs.gtk.org/gobject/floating-refs.html)  
+    https://docs.gtk.org/gobject/floating-refs.html  
     [gobject-construction](https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introduction-to-gobject-construction/)  
     [check-if-freed](https://stackoverflow.com/questions/24453266/)  
     [object-unref](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
@@ -346,13 +341,11 @@
     https://stackoverflow.com/questions/58746046/  
 
 
-
 #### Gtk custom widgets
 
 * Examples
 
     [old-tutorial](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-20.html)  
-    [drawing-area](https://developer-old.gnome.org/gtk3/stable/GtkDrawingArea.html)  
     [examples](https://wiki.gnome.org/HowDoI/CustomWidgets)  
     [examples](http://www.peteronion.org.uk/GtkExamples/GladeTutorials.html)  
     [create-object](https://stackoverflow.com/questions/57699050/)  
