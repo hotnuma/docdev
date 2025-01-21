@@ -40,8 +40,8 @@
     DEV=0
 
     while [[ $# > 0 ]]; do
-        key="$1"
-        case $key in
+        arg="$1"
+        case $arg in
             dev)
             DEV=1
             shift
