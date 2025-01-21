@@ -33,9 +33,7 @@
 
 * Build simple program
     
-    ```
-    gcc -o gtksimple gtksimple.c `pkg-config --libs --cflags gtk+-3.0`
-    ```
+    `gcc -o simple simple.c $(pkg-config --cflags --libs gtk+-3.0)`
 
 * Gtk/Glib version
     

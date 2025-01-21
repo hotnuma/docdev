@@ -11,6 +11,15 @@
 https://wiki.debian.org/BuildingTutorial  
 
 
+#### Gcc
+
+* simple commands
+
+    https://ioflood.com/blog/gcc-linux-command/  
+    
+    `gcc -o simple simple.c $(pkg-config --cflags --libs gtk+-3.0)`  
+
+
 #### Autotools
     
 * Install release version
