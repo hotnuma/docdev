@@ -35,7 +35,7 @@
 * Markdown
     
     https://www.markdownguide.org/basic-syntax/  
-    https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet  
+    [https://github.com/adam-p/markdown-here...](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
     https://www.codecademy.com/resources/docs/markdown/tables  
     [https://docs.github.com/en/github/writing-on-github/](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
 
@@ -50,7 +50,7 @@
 
 * patch
     
-    try : `patch -p 1 --dry-run -i '../dir/my_file.patch'`  
+    try : `patch -p 1 -i '../dir/my_file.patch' --dry-run`  
     
     do  : `patch -p 1 -i '../dir/my_file.patch'`  
 
