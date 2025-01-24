@@ -30,6 +30,15 @@
     in current dir : `clang-format -i -style=WebKit *.c *.h`  
     
 
+#### Geany
+
+* Generating tags
+    
+    https://www.geany.org/manual/current/index.html#symbols-and-tags-files  
+    
+    `CFLAGS=$(pkg-config --cflags tinyc) geany -g tinyc.c.tags /usr/local/include/tinyc/*.h`
+
+
 #### Markdown
 
 * Markdown
