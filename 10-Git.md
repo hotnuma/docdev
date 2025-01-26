@@ -48,6 +48,10 @@
     
     https://stackoverflow.com/questions/4630312/  
     
+    reset : `git reset HEAD --hard`
+    
+    remove new files : `git clean -fd`
+    
 * Commit history
     
     https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History  
