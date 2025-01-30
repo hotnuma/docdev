@@ -39,6 +39,57 @@
     `dpkg -l libglib2.0-0 libgtk-3-0 | grep ^ii`  
 
 
+#### Articles
+
+* GObject
+    
+    [gobject-tutorial](https://docs.gtk.org/gobject/tutorial.html)  
+    [gobject-new-unref](https://stackoverflow.com/questions/2848273/)  
+    https://docs.gtk.org/gobject/floating-refs.html  
+    [gobject-construction](https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introduction-to-gobject-construction/)  
+    [check-if-freed](https://stackoverflow.com/questions/24453266/)  
+    [object-unref](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
+    [object-unref](https://stackoverflow.com/questions/2848273/)  
+    
+    https://discourse.gnome.org/t/memory-leak-dispose-and-finalize-what-are-the-good-practices/11415/2  
+    
+* GTK+ par l'exemple.
+    
+    [https://nicolasj.developpez.com/gtk/cours/?page=les-raccourc](https://nicolasj.developpez.com/gtk/cours/?page=les-raccourcis-clavier)  
+
+* Toolbar
+    
+    [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  
+
+* How to properly add images to buttons
+    
+    [add-images-to-buttons](https://discourse.gnome.org/t/how-to-properly-add-images-to-buttons/1185/2)  
+
+* TreeView
+
+    [gtk3-treeview-tutorial](https://docs.gtk.org/gtk3/treeview-tutorial.html)  
+    [zetcode-gtk2-treeview](https://zetcode.com/gui/gtk2/gtktreeview/)  
+    [wikibooks-gtk-treeview](https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models)  
+    
+* GtkBox vs GtkGrid
+    
+    https://www.manpagez.com/html/gtk3/gtk3-3.24.31/ch30s02.php  
+
+* Alternative to deprecated gtk_alignment_new
+    
+    https://stackoverflow.com/questions/58746046/  
+
+
+#### Gtk custom widgets
+
+* Examples
+
+    [old-tutorial](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-20.html)  
+    [examples](https://wiki.gnome.org/HowDoI/CustomWidgets)  
+    [examples](http://www.peteronion.org.uk/GtkExamples/GladeTutorials.html)  
+    [create-object](https://stackoverflow.com/questions/57699050/)  
+
+
 #### Drag and Drop
 
 * Reference
@@ -301,55 +352,6 @@
         </tr>
     </table>
     
-
-#### Articles
-
-* GObject
-    
-    [gobject-tutorial](https://docs.gtk.org/gobject/tutorial.html)  
-    [gobject-new-unref](https://stackoverflow.com/questions/2848273/)  
-    https://docs.gtk.org/gobject/floating-refs.html  
-    [gobject-construction](https://blogs.gnome.org/desrt/2012/02/26/a-gentle-introduction-to-gobject-construction/)  
-    [check-if-freed](https://stackoverflow.com/questions/24453266/)  
-    [object-unref](https://discourse.gnome.org/t/when-should-i-use-g-object-unref/3834/6)  
-    [object-unref](https://stackoverflow.com/questions/2848273/)  
-
-* GTK+ par l'exemple.
-    
-    [https://nicolasj.developpez.com/gtk/cours/?page=les-raccourc](https://nicolasj.developpez.com/gtk/cours/?page=les-raccourcis-clavier)  
-
-* Toolbar
-    
-    [add-gtkwidget](https://stackoverflow.com/questions/10740967/how-to-add-gtkwidget-to-gtktoolbar)  
-
-* How to properly add images to buttons
-    
-    [add-images-to-buttons](https://discourse.gnome.org/t/how-to-properly-add-images-to-buttons/1185/2)  
-
-* TreeView
-
-    [gtk3-treeview-tutorial](https://docs.gtk.org/gtk3/treeview-tutorial.html)  
-    [zetcode-gtk2-treeview](https://zetcode.com/gui/gtk2/gtktreeview/)  
-    [wikibooks-gtk-treeview](https://en.wikibooks.org/wiki/GTK%2B_By_Example/Tree_View/Tree_Models)  
-    
-* GtkBox vs GtkGrid
-    
-    https://www.manpagez.com/html/gtk3/gtk3-3.24.31/ch30s02.php  
-
-* Alternative to deprecated gtk_alignment_new
-    
-    https://stackoverflow.com/questions/58746046/  
-
-
-#### Gtk custom widgets
-
-* Examples
-
-    [old-tutorial](https://www.cc.gatech.edu/data_files/public/doc/gtk/tutorial/gtk_tut-20.html)  
-    [examples](https://wiki.gnome.org/HowDoI/CustomWidgets)  
-    [examples](http://www.peteronion.org.uk/GtkExamples/GladeTutorials.html)  
-    [create-object](https://stackoverflow.com/questions/57699050/)  
-
 
 #### Other
 
