@@ -39,17 +39,16 @@
 
     DEV=0
 
-    while [[ $# > 0 ]]; do
-        arg="$1"
-        case $arg in
-            dev)
-            DEV=1
-            shift
-            ;;
-            *)
-            shift
-            ;;
-        esac
+    while (($#)); do
+    case "$1" in
+        -dev)
+        DEV=1
+        ;;
+        *)
+        DEV=0
+        ;;
+    esac
+    shift
     done
 
     if [[ $DEV == 1 ]]; then
