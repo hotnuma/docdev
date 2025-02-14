@@ -30,6 +30,26 @@
     fi
     ```
 
+* Error messages
+    
+    ```
+    usage_exit()
+    {
+        echo "*** usage :"
+        echo "$appname -opt1"
+        echo "$appname -opt2 bla"
+        echo "abort..."
+        exit 1
+    }
+
+    error_exit()
+    {
+        printf "$1\n"
+        echo "abort..."
+        exit 1
+    }
+    ```
+
 * Parsing args
     
     https://stackoverflow.com/questions/192249/  
@@ -37,15 +57,21 @@
     ```
     #!/usr/bin/bash
 
-    DEV=0
+    opt_dev=0
+    opt_name=""
 
     while (($#)); do
     case "$1" in
         -dev)
-        DEV=1
+        opt_dev=1
+        ;;
+        -o)
+            test $# -gt 1 || error_exit "*** missing option"
+            shift
+            opt_name="$1"
         ;;
         *)
-        DEV=0
+        opt_dev=0
         ;;
     esac
     shift
