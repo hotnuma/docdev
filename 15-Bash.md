@@ -61,19 +61,19 @@
     opt_name=""
 
     while (($#)); do
-    case "$1" in
-        -dev)
-        opt_dev=1
-        ;;
-        -o)
-            test $# -gt 1 || error_exit "*** missing option"
-            shift
-            opt_name="$1"
-        ;;
-        *)
-        opt_dev=0
-        ;;
-    esac
+        case "$1" in
+            -dev)
+            opt_dev=1
+            ;;
+            -o)
+                test $# -gt 1 || error_exit "*** missing option"
+                shift
+                opt_name="$1"
+            ;;
+            *)
+            opt_dev=0
+            ;;
+        esac
     shift
     done
 
