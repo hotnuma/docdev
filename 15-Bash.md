@@ -74,7 +74,7 @@
             opt_dev=0
             ;;
         esac
-    shift
+        shift
     done
 
     if [[ $DEV == 1 ]]; then
