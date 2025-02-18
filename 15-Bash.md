@@ -8,31 +8,22 @@
 
 #### Reference
 
-* ShellCheck
-    
-    https://www.shellcheck.net/  
-
 * Advance Bash scripting
     
     https://tldp.org/LDP/abs/html/index.html  
 
-
-#### Args
-
-* Check number of arguments
+* ShellCheck
     
-    https://stackoverflow.com/questions/18568706/  
-    
-    ```
-    if [[ $# != 1 ]]; then
-        echo "Illegal number of parameters"
-        exit 1
-    fi
-    ```
+    https://www.shellcheck.net/  
 
-* Error messages
+
+#### Helpers
+
+* Usefull functions
     
     ```
+    appname=${0##*/}
+
     usage_exit()
     {
         echo "*** usage :"
@@ -48,7 +39,34 @@
         echo "abort..."
         exit 1
     }
+
+    ask_confirm()
+    {
+        while true; do
+            read -p "$1" ret
+            case $ret in
+                [Yy]*)
+                    return 0; break
+                ;;
+                [Nn]*)
+                    return 1; break
+                ;;
+                *)
+                    return 0; break
+                ;;
+            esac
+        done
+    }
     ```
+
+
+#### Args
+
+* Check number of arguments
+    
+    https://stackoverflow.com/questions/18568706/  
+    
+    `test "$#" -eq 1 || error_exit "Illegal number of parameters"`
 
 * Parsing args
     
@@ -89,9 +107,7 @@
     
     https://stackoverflow.com/questions/59895/  
     
-    `BASEDIR="$(dirname -- "$(readlink -f -- "$0";)")"`
-    
-    `BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"`
+    `basedir="$(dirname -- "$(readlink -f -- "$0";)")"`
 
 * Parse sub directories
 
@@ -130,6 +146,7 @@
     inpath=file.md
     outpath=${inpath%.md}.html
     ```
+
 * Heredoc
     
     https://linuxize.com/post/bash-heredoc/  
@@ -175,4 +192,9 @@
         fi
     fi
     ```
+
+<!--
+    `basedir="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"`  
+-->
+
 
