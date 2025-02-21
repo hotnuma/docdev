@@ -35,8 +35,9 @@
 
     error_exit()
     {
-        printf "$1\n"
-        echo "abort..."
+        msg="$1"
+        test "$msg" != "" || msg="an error occurred"
+        printf "*** $msg\nabort...\n"
         exit 1
     }
 
