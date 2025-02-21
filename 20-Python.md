@@ -6,13 +6,25 @@
 
 ---
 
-#### Samples
+#### Howto
+
+* Get script name
+    
+    `appname = os.path.basename(__file__)`
 
 * Error messages
     
     ```
-    def exit_error(msg):
-        print("*** %s\nabort...\n" % msg)
+    def error_exit(msg):
+        if msg == "": msg = "an error occurred"
+        print("*** %s\nabort..." % msg)
+        exit(1)
+    
+    def usage_exit():
+        print("*** usage :")
+        print("%s -opt1" % appname)
+        print("%s -opt2 bla" % appname)
+        print("abort...")
         exit(1)
     ```
 
@@ -39,7 +51,7 @@
     print(opt_val)
     ```
 
-* Redirect process
+* Execute process
 
     ```
     import os, sys, subprocess
