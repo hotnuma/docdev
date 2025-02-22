@@ -10,17 +10,23 @@
 
 * clone
 
-    ```
-    git clone https://OAUTH_KEY@github.com/hotnuma/libtinycpp.git
-    git clone https://github.com/hotnuma/libtinycpp.git
-    git clone -b master --single-branch https://github.com/hotnuma/libtinycpp.git
-    ```
+    `git clone https://github.com/hotnuma/libtinyc.git`
+    
+    with OAuth key :
+    
+    `git clone https://OAUTH_KEY@github.com/hotnuma/libtinyc.git`
+    
+    without history :
+    
+    `git clone --depth 1 https://github.com/hotnuma/libtinyc.git`
+    
+    one branch :
+    
+    `git clone -b master --single-branch https://github.com/hotnuma/libtinyc.git`
 
-* clone a specific tag
-
-    ```
-    git clone --depth 1 --branch thunar-4.16.6 https://gitlab.xfce.org/xfce/thunar.git
-    ```
+    specific tag :
+    
+    `git clone --branch thunar-4.16.6 --depth 1 https://gitlab.xfce.org/xfce/thunar.git`
 
 * Push an existing repository
     
@@ -32,15 +38,11 @@
 
 * Check Remote
 
-    ```
-    git remote -v
-    ```
+    `git remote -v`
 
-* Remove subdirs
+* Remove a subdir
 
-    ```
-    git rm -r --cached autre
-    ```
+    `git rm -r --cached dir_name`
 
 #### History
 
