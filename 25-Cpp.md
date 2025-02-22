@@ -20,6 +20,18 @@
     
     `#define _GNU_SOURCE`
 
+* error functions
+    
+    ```
+    static void usage_exit()
+    {
+        printf("*** usage :\n");
+        printf("appname file.c\n");
+        printf("abort...\n");
+        exit(EXIT_FAILURE);
+    }
+    ```
+
 * Reporting information using syslog
     
     https://stackoverflow.com/questions/18658429/  
@@ -49,7 +61,6 @@
 * Polkit applications
     
     https://www.freedesktop.org/software/polkit/docs/0.105/polkit-apps.html  
-
 
 
 #### Functions
