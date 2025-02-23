@@ -29,6 +29,10 @@
     dump config : `clang-format -style=llvm -dump-config > _clang-format`  
     in current dir : `clang-format -i -style=WebKit *.c *.h`  
     
+* Find lines longer than n chars
+    
+    `grep -ni '.\{80\}' window.c`
+
 
 #### Geany
 
