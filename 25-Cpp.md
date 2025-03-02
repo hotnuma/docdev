@@ -23,12 +23,54 @@
 * error functions
     
     ```
+    #define APPNAME "appname"
+    
+    static void error_exit(const char *msg)
+    {
+        if (!msg || *msg == '\0')
+        {
+            msg = "an error occurred";
+        }
+
+        printf("*** %s\nabort...\n", msg);
+
+        exit(EXIT_FAILURE);
+    }
+
     static void usage_exit()
     {
         printf("*** usage :\n");
-        printf("appname file.c\n");
+        printf("%s param\n", APPNAME);
         printf("abort...\n");
+
         exit(EXIT_FAILURE);
+    }
+    ```
+
+* args parsing
+    
+    ```
+    int n = 1;
+
+    while (n < argc)
+    {
+        if (strcmp(argv[n], "-opt") == 0)
+        {
+            return EXIT_SUCCESS;
+        }
+        else if (strcmp(argv[n], "-arg") == 0)
+        {
+            if (++n >= argc)
+                usage_exit();
+
+            return EXIT_SUCCESS;
+        }
+        else
+        {
+            usage_exit();
+        }
+
+        ++n;
     }
     ```
 
