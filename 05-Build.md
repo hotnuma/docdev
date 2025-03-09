@@ -18,6 +18,8 @@ https://wiki.debian.org/BuildingTutorial
     https://ioflood.com/blog/gcc-linux-command/  
     
     `gcc -o simple simple.c $(pkg-config --cflags --libs gtk+-3.0)`  
+    
+    using systools : `cbuild simple simple.c gtk+-3.0`  
 
 
 #### Autotools
@@ -79,26 +81,31 @@ https://wiki.debian.org/BuildingTutorial
 * Find build dependencies
 
     https://askubuntu.com/questions/172367/  
+    https://askubuntu.com/questions/481/  
+    https://www.cyberciti.biz/faq/equivalent-of-rpm-qf-command/  
+    [https://www.linuxuprising.com/2018/11/](https://www.linuxuprising.com/2018/11/how-to-find-package-that-provides-file.html)  
     
-    Sources depends : `apt-cache showsrc xfwm4 | grep '^Build-Depends'`
+    installed : `apt-cache showsrc xfwm4 | grep '^Build-Depends'`  
     
-    Build depends : `apt build-dep --dry-run xfwm4`
+    not installed : `apt-file search a_file.pc`  
     
-    Search package : `apt search xfwm4`
+    `apt build-dep --dry-run xfwm4`  
     
+    `apt search xfwm4`  
+    
+* Find linked libraries
+
+    https://unix.stackexchange.com/questions/120015/  
+    
+* Fix library error
+
+    `sudo /sbin/ldconfig -v`
+
 * pkg-config
 
     `pkg-config --cflags --libs gtk+-3.0`
     
-    Version : `pkg-config --modversion glib-2.0`
-
-* Find program dependencies
-    
-    https://unix.stackexchange.com/questions/120015/  
-
-* fix library error
-
-    `sudo /sbin/ldconfig -v`
+    version : `pkg-config --modversion glib-2.0`
 
 * Common Dev Packages
 
